@@ -19,15 +19,15 @@ Properties should follow this convention, domain name - environment
 Where the domain name is the that of the site you are tracking and the environment is either Production or Test.
 
 You need two (2) Properties, one for your Live/Production site, and one for UAT/Test site
-1. dpc.vic.gov.au - Production
-2. dpc.vic.gov.au - Test
+1. **dpc.vic.gov.au - Production**
+2. **dpc.vic.gov.au - Test**
 #### Views: 
 Your production property should have at least two (2) views
 
-1. Prod - Raw - dpc.vic.gov.au
-2. Prod - Filtered - dpc.vic.gov.au
+1. **Prod - Raw - dpc.vic.gov.au**
+2. **Prod - Filtered - dpc.vic.gov.au**
 
-#### Recomended filters
+##### Recomended filters
 * Lowercase URL 
 * Lowercase Source
 * Lowercase Medium
