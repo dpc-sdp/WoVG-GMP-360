@@ -11,7 +11,7 @@ Google Tag Manager replaces all your measurement and marketing tags with a singl
 If your agency or department doesn’t have a GTM account, follow [these instructions from Google](https://support.google.com/tagmanager/answer/6103696?hl=en).
 
 #### GTM Naming Convention
-These are the WoVG naming convention for Google Tag Manager containers.
+This is the WoVG naming convention for Google Tag Manager containers.
 
 Use your primary domain name, don’t include the www from the hostname.
 
