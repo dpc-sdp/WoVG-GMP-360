@@ -1,4 +1,4 @@
-# Set up and report performance measurement for the WoVG with Google Analytics and Tag Manager
+# Set up and report performance measurement for the WoVG with Google Tag Manager
 Use these instructions to comply with the mandatory standard for the Victorian government for adding the Google Analytics tracking code to your website.
 
 This process is **NOT** for Single Digital Presence sites.
