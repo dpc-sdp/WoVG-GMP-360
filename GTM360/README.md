@@ -8,10 +8,10 @@ Google Tag Manager replaces all your measurement and marketing tags with a singl
 ### Google Tag Manager Account Creation
 If your agency or department doesn’t have a GTM account, follow [these instructions from Google](https://support.google.com/tagmanager/answer/6103696?hl=en).
 #### GTM Naming Convention
-Please follow the WoVG naming convention for Google Tag Manager containers.
+These are the WoVG naming convention for Google Tag Manager containers.
 Use your primary domain name. Don’t include the www.
 For the Department of Premier and Cabinet, this would be: 
-* dpc.vic.gov.au
+* **dpc.vic.gov.au**
 #### GTM Installation
 Then add the container to every page of your site using this Quick Start Guide | Google Tag Manager for Web Tracking
 
