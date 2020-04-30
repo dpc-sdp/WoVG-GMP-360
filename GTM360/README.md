@@ -12,7 +12,9 @@ If your agency or department doesn’t have a GTM account, follow [these instruc
 
 #### GTM Naming Convention
 These are the WoVG naming convention for Google Tag Manager containers.
-Use your primary domain name. Don’t include the www.
+
+Use your primary domain name, don’t include the www from the hostname.
+
 For the Department of Premier and Cabinet, this would be:
 * **dpc.vic.gov.au**
 
