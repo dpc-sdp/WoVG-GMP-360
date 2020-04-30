@@ -24,11 +24,11 @@ Then add the container to every page of your site using this [Quick Start Guide 
 #### GTM Configuration
 Once you have your container installed it is time to configure it. You have a couple of options:
 1. Basic Tracking
-  * Will cover normal site usage
+   * Will cover normal site usage
 2. Medium Tracking
-  * Basic plus more
+   * Basic plus more
 3. Advanced tracking
-  * All the bells and whistles
+   * All the bells and whistles
 
 Download the latest version of your Container of choice (Link to Git Repo?)
 
