@@ -1,0 +1,3515 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2020-08-18 22:02:18",
+    "containerVersion": {
+        "path": "accounts/4702060792/containers/31801223/versions/0",
+        "accountId": "4702060792",
+        "containerId": "31801223",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/4702060792/containers/31801223",
+            "accountId": "4702060792",
+            "containerId": "31801223",
+            "name": "#Template - Non - SDP",
+            "publicId": "GTM-WZ5G9VC",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1593580386726",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/4702060792/containers/31801223/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "9",
+                "name": "CHTML - Caretaker - message.js - WOVG",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script type=\"text/javascript\" src=\"https://drwgdblqzrfiz.cloudfront.net/message.js\" defer=\"true\"></script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1593580567864",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "8",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "37",
+                "name": "GA - Event - Error - Content - 404 - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "content"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "error"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "404 | {{CJS - Referrer - WOVG}}"
+                    }
+                ],
+                "fingerprint": "1597714079980",
+                "firingTriggerId": [
+                    "35"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "43",
+                "name": "Hotjar - WOVG",
+                "type": "hjtc",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "hotjar_site_id",
+                        "value": "{{Const - Hotjar Site ID - WOVG - Config}}"
+                    }
+                ],
+                "fingerprint": "1593580567739",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "3",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "54",
+                "name": "GA - Event - Form - Abandonment - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "form"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{DLV - group - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{DLV - eventLabel - WOVG}} | {{DLV - pagePathTarget - WOVG}}"
+                    }
+                ],
+                "fingerprint": "1593580567744",
+                "firingTriggerId": [
+                    "5"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "62",
+                "name": "GA - Event - Content - Timer - Complete - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "content"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "timer"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page Path}}"
+                    }
+                ],
+                "fingerprint": "1593580567746",
+                "firingTriggerId": [
+                    "61"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "70",
+                "name": "GA - Event - Form - Submit - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "form"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "global | {{CJS - Form - Name - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "submit | {{Page Path}}"
+                    }
+                ],
+                "fingerprint": "1597735250283",
+                "firingTriggerId": [
+                    "68"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "79",
+                "name": "CHTML - dataLayer - Form - Abandonment - WOVG - Config",
+                "type": "html",
+                "notes": "This custom script will assign event listeners to a targeted form on page via {{CJS - Form - WOVG}}. If the form is interacted with (changed) but not submitted, then the user changes the page or the browser \"unload\" event gets triggered, the script will fire a dataLayer push for form abandonment. This script only targets a single form.",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>\n(function() {\n  try {\n    // get gtm debug mode\n    var db = {{Debug Mode}};\n    // does browser support addEventListener\n    if(typeof window.addEventListener != 'undefined') {\n      // has gtm_custom_helper been setup already\n      if(typeof window.gtm_custom_helper == 'undefined') {\n        // create gtm_custom_helper and create functions\n        window.gtm_custom_helper = {};\n        // flag if the form has changed\n        window.gtm_custom_helper.formChangeCall = function(){\n          try {\n            window.gtm_custom_helper.formChanged = true;\n          } catch(err){};\n        }\n        // flag if the form has been submitted\n        window.gtm_custom_helper.formSubmitCall = function(){\n          try {\n            window.gtm_custom_helper.formSubmit = true;\n          } catch(err){};\n        }\n        // when the browser unloads check the flags and do a dataLayer push if form is deemed abandoned\n        window.gtm_custom_helper.formBeforeunloadCall = function(){\n          try {\n            if (window.dataLayer && window.gtm_custom_helper.formChanged && !window.gtm_custom_helper.formSubmit) {\n              // push event to GTM\n              window.dataLayer.push({\n                'event' : 'custom.form.abandonment',\n                'eventCategory' : 'form',\n                'group' : 'global'+' | '+window.gtm_custom_helper.formName,\n                'eventLabel' : 'abandonment',\n                'pagePathTarget' : {{Page Path}}     \n              });\n            }\n          } catch(err){};\n        }\n        // add addEventListener beforeunload event to call formBeforeunloadCall\n        window.addEventListener('beforeunload', window.gtm_custom_helper.formBeforeunloadCall);\n      }\n\n      // check to see if a form is already active, if so clear listeners and call formBeforeunloadCall to trigger past form. This is in place for SAP route events\n      if(typeof window.gtm_custom_helper.formActive != 'undefined' && window.gtm_custom_helper.formActive) {\n        window.gtm_custom_helper.formActive.removeEventListener('change', window.gtm_custom_helper.formChangeCall);\n        window.gtm_custom_helper.formActive.removeEventListener('submit', window.gtm_custom_helper.formSubmitCall);\n        window.gtm_custom_helper.formBeforeunloadCall();\n      }\n      // get a form from the page\n      var form = {{CJS - Form - WOVG}};\n      // reset form states\n      window.gtm_custom_helper.formChanged = false;\n      window.gtm_custom_helper.formSubmit = false;\n      window.gtm_custom_helper.formName = 'no-value';\n\n      // if a form is found apply a name and assign listeners\n      if(form && typeof form.addEventListener != 'undefined') {\n        window.gtm_custom_helper.formName = 'no-name';\n        if(typeof form.name != 'undefined' && form.name.length > 0) {\n          window.gtm_custom_helper.formName = form.name;\n        } else if(typeof form.id != 'undefined' && form.id.length > 0) {\n          window.gtm_custom_helper.formName = form.id;\n        }\n        window.gtm_custom_helper.formActive = form;\n        form.addEventListener('change', window.gtm_custom_helper.formChangeCall);\n        form.addEventListener('submit', window.gtm_custom_helper.formSubmitCall);\n      }\n    }\n  } catch(err){if({{Debug Mode}}) console.log('gtm', 'error', 'CHTML - dataLayer - Form Abandonment - WOVG', err)};\n})();\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1597728542332",
+                "firingTriggerId": [
+                    "78"
+                ],
+                "parentFolderId": "31",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "82",
+                "name": "GA - Pageview - Route Change - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_PAGEVIEW"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    }
+                ],
+                "fingerprint": "1593582200226",
+                "firingTriggerId": [
+                    "81"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "paused": true,
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "93",
+                "name": "GA - Pageview - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_PAGEVIEW"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    }
+                ],
+                "fingerprint": "1593582192768",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "95",
+                "name": "GA - Event - Navigation - Button - CTA - Click - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "navigation"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "button | cta"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{CJS - Click - Label - WOVG}} | {{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1593580567847",
+                "firingTriggerId": [
+                    "94"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "102",
+                "name": "GA - Event - Navigation - Email - Click - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "navigation"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "email"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{CJS - Click - Label - WOVG}} | {{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1593580567851",
+                "firingTriggerId": [
+                    "41"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "103",
+                "name": "GA - Event - Navigation - Menu - Header - Click - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "navigation"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "menu | header"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{CJS - Click - Label - WOVG}} | {{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1597735219920",
+                "firingTriggerId": [
+                    "80"
+                ],
+                "blockingTriggerId": [
+                    "141"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "105",
+                "name": "GA - Event - Navigation - External - Click - WOVG",
+                "type": "ua",
+                "notes": "This trigger will target \"external\" link clicks. This may need to be configured for your website depending on where it is hosted. For example if your domain is part of .vic.gov.au then other sub-domain departments should be considered \"external\". You can use \"external|subdomain\" in this situation. Otherwise re-work this trigger to correctly track your external links if required.",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "navigation"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "external"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{CJS - Click - Label - WOVG}} | {{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1597713951237",
+                "firingTriggerId": [
+                    "104"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "109",
+                "name": "GA - Event - Scroll Depth - WOVG - Config",
+                "type": "ua",
+                "notes": "This Tag is paused by default as scrolling can add significant events (hits) to Google Analytics. Please review current hit levels before activating this Tag.",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "content"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "scroll depth"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Scroll Depth Threshold}}%"
+                    }
+                ],
+                "fingerprint": "1597728780392",
+                "firingTriggerId": [
+                    "85"
+                ],
+                "blockingTriggerId": [
+                    "133"
+                ],
+                "parentFolderId": "31",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "paused": true,
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "111",
+                "name": "GA - Event - Video - YouTube - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "video"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{Video Title}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{LTR - Video - Status - Label - WOVG}}"
+                    }
+                ],
+                "fingerprint": "1595893783708",
+                "firingTriggerId": [
+                    "110"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "115",
+                "name": "GA - Event - Download - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "download"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{URL - Click - Path - WOVG}} | {{LTR - Click URL - Download Type - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Page Path}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "dimension",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "26"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{LTR - Click URL - Download Type - WOVG}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1597714215022",
+                "firingTriggerId": [
+                    "83"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "118",
+                "name": "GA - Event - Navigation - Telephone - Click - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "navigation"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "telephone"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1593580567859",
+                "firingTriggerId": [
+                    "96"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "119",
+                "name": "GA - Event - Navigation - Menu - Footer - Click - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "navigation"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "menu | footer"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{CJS - Click - Label - WOVG}} | {{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1597735229909",
+                "firingTriggerId": [
+                    "89"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "120",
+                "name": "GA - Event - General - Dynamic - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "{{DLV - eventCategory - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{DLV - eventAction - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{DLV - eventLabel - WOVG}}"
+                    }
+                ],
+                "fingerprint": "1593580567861",
+                "firingTriggerId": [
+                    "117"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "134",
+                "name": "CHTML - Vimeo - dataLayer - Base - WOVG",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script >\n    (function() {\n        var _video_milestones = [25, 50, 75];\n        var _video_type = \"vimeo\";\n        var _asInitiateVideoTracking = function() {\n            var _asSendHit = function() {\n                return function(_asData) {\n                    if (_asData.videoTitle === \"not set\") return;\n                    var _asThereIsHitValue = _asData.hitValue;\n                    var _asHitObject;\n                    var _eventData = _asData.eventType ? _asData.eventType.split('.') : [];\n                    var _eventAction = _eventData && _eventData.length > 0 ? _eventData[_eventData.length-1] : 'unknown';\n                    if (_asThereIsHitValue) _asHitObject = {\n                        \"event\": _asData.eventType,\n                        \"eventCategory\": \"video\",\n                        \"eventAction\": _eventAction,\n                        \"eventLabel\": _asData.videoTitle,\n                        \"eventValue\": _asData.hitValue,\n                        \"nonInteraction\": _asData.nonInteraction,\n                        \"type\": _video_type,\n                        \"gtm.videoStatus\" : _eventAction,\n                        \"gtm.videoPercent\" : _asData.hitValue\n                    };\n                    else _asHitObject = {\n                        \"event\" : _asData.eventType,\n                        \"eventCategory\": \"video\",\n                        \"eventAction\": _eventAction,\n                        \"eventLabel\": _asData.videoTitle,\n                        \"nonInteraction\": _asData.nonInteraction,\n                        \"type\": _video_type,\n                        \"gtm.videoStatus\" : _eventAction\n                    };\n                    dataLayer.push(_asHitObject);\n                }\n            }();\n\n            function _asGetVimeoIframes() {\n                _asVimeoIframes = Array.prototype.filter.call(document.getElementsByTagName(\"iframe\"), function(iframe) {\n                    return /player.vimeo.com/.test(iframe.src)\n                })\n            }\n\n            function _asExtendFunctions(_asObj, _asMethods) {\n                for (var _asKey in _asMethods) _asObj[_asKey] =\n                    _asMethods[_asKey]\n            }\n\n            function _asEmbedVimeoAPI() {\n                var Vimeo = window.Vimeo;\n                if (_asVimeoIframes.length > 0) {\n                    var _asVimeoApiExists = typeof Vimeo !== \"undefined\";\n                    if (!_asVimeoApiExists) {\n                        var x = document.createElement(\"script\");\n                        var r = document.getElementsByTagName(\"script\")[0];\n                        x.async = true;\n                        x.type = \"text/javascript\";\n                        x.src = \"https://player.vimeo.com/api/player.js\";\n                        r.parentNode.insertBefore(x, r)\n                    }\n                    _asApiInterval = window.setInterval(_asCheckForIframeAPI, 1E3)\n                }\n            }\n\n            function _asCheckForIframeAPI() {\n                var Vimeo = window.Vimeo;\n                if (typeof Vimeo !==\n                    \"undefined\") {\n                    window.clearInterval(_asApiInterval);\n                    _asVimeoIframes.map(_asProcessIframeToVideo);\n                    return\n                }\n                if (_asApiCurrentTime < 5) _asApiCurrentTime++;\n                else window.clearInterval(_asApiInterval)\n            }\n            var _asVideoObjectAdditions = {\n                setMilestones: function() {\n                    var _this = this;\n                    var checkDurationSet = window.setInterval(function() {\n                            var _asVidLen = _this._asData.videoLength;\n                            if (_asVidLen !== \"not set\") {\n                                _this._asData.milestones = _this._asData.milestones.map(function(milestone) {\n                                    return milestone / 100 * _asVidLen\n                                });\n                                window.clearInterval(checkDurationSet)\n                            }\n                        },\n                        200, _this)\n                },\n                setVideoTitle: function() {\n                    var _this = this;\n                    this.getVideoTitle().then(function(videoTitle) {\n                        _this._asData.videoTitle = videoTitle\n                    })\n                },\n                replayOrNewVid: function() {\n                    var _this = this;\n                    this._asData.milestones = _video_milestones;\n                    this.getVideoTitle().then(function(videoTitle) {\n                        if (_this._asData.videoTitle === videoTitle) {\n                            _this._asData.justFinished = false;\n                            _this.setMilestones()\n                        } else _this._vidLoaded();\n                        _this._vidPlay()\n                    })\n                },\n                setVideoLength: function() {\n                    var _this = this;\n                    this.getDuration().then(function(videoDuration) {\n                        _this._asData.videoLength =\n                            Math.round(videoDuration)\n                    })\n                },\n                _asGetCurrentTime: function() {\n                    var _this = this;\n                    this.getCurrentTime().then(function(seconds) {\n                        _this._asData.currentTime = seconds\n                    })\n                },\n                _vidLoaded: function() {\n                    var _this = this;\n                    this.setVideoTitle();\n                    this.setVideoLength();\n                    this.setMilestones();\n                    this.getVolume().then(function(volume) {\n                        if (volume === 0) _this._asData.justMuted = true\n                    });\n                    var _asTitleExist = setInterval(function() {\n                        if (_this._asData.videoTitle !== \"not set\") {\n                            //_this._sendHit(\"custom.video.loaded\", true);\n                            clearInterval(_asTitleExist)\n                        }\n                    }, 75);\n                    this._asData.justFinished =\n                        false;\n                    this._asData.vidLoaded = true\n                },\n                _vidPlay: function() {\n                    if (_asDebounceSeek) return;\n                    var _this = this;\n                    window.setTimeout(function() {\n                        if (_asDebounceSeek) return;\n                        if (_this._asData.justFinished && _this._asData.firstPlay) {\n                            _this.replayOrNewVid();\n                            return\n                        }\n                        var _asPlay = _this._asData.firstPlay ? [\"custom.video.start\", \"custom.video.autoplay\"] : \"custom.video.resume\";\n                        if (_asPlay.length === 2) {\n                            _this._asData.firstPlay = false;\n                            _this._asData.autoplay ? _this._sendHit(_asPlay[1], true) : _this._sendHit(_asPlay[0], false)\n                        } else _this._sendHit(_asPlay, false)\n                    }, 1E3, _this)\n                },\n                _vidPause: function() {\n                    var _this = this;\n                    if (_this._asData.justFinished || _asDebounceSeek) return;\n                    window.setTimeout(function() {\n                        if (_this._asData.justFinished || _asDebounceSeek) return;\n                        if (_this.getCurrentTime() !== _this._asData.videoLength) _this._sendHit(\"custom.video.pause\", false)\n                    }, 1E3, _this)\n                },\n                _vidSeek: function() {\n                    if (_asDebounceSeek || this._asData.justFinished) return;\n                    _asDebounceSeek = true;\n                    this._sendHit(\"custom.video.seek\", false);\n                    window.setTimeout(function() {\n                        _asDebounceSeek = false\n                    }, 2E3)\n                },\n                _vidComplete: function() {\n                    if (this._asData.milestones.length >\n                        0)\n                        for (var i = 0; i < this._asData.milestones.length; i++) {\n                            var _asMilestone = this._asData.milestones[i];\n                            var _asCurrentPercent = _asMilestone / this._asData.videoLength * 100;\n                            if (!Number.isNaN(_asCurrentPercent) && _asCurrentPercent % 25 === 0 && _asCurrentPercent > 0 && _asCurrentPercent <= 100) {\n                                this._asData.hitValue = _asCurrentPercent;\n                                this._sendHit(decodeURIComponent(encodeURIComponent(\"custom.video.progress\")), true)\n                            }\n                        }\n                    this._asData.hitValue = 100;\n                    this._sendHit(\"custom.video.complete\", true);\n                    this._asData.firstPlay = true;\n                    this._asData.justFinished =\n                        true;\n                    this._asData.autoplay = false\n                },\n                _vidMilestones: function(data) {\n                    if (_asDebounceMilestone) return;\n                    _asDebounceMilestone = true;\n                    window.setTimeout(function() {\n                        _asDebounceMilestone = false\n                    }, 2E3);\n                    if (this._asData.firstPlay && data.seconds > 3) this._vidPlay();\n                    if (data.seconds < this._asData.milestones[0] || this._asData.milestones.length === 0) return;\n                    var _asTime = data.seconds;\n                    var _asMilestone;\n                    do _asMilestone = this._asData.milestones.splice(0, 1)[0]; while (_asMilestone > _asTime);\n                    var _asCurrentPercent = _asMilestone / this._asData.videoLength *\n                        100;\n                    if (!Number.isNaN(_asCurrentPercent) && _asCurrentPercent % 25 === 0 && _asCurrentPercent > 0 && _asCurrentPercent <= 100) {\n                        this._asData.hitValue = _asCurrentPercent;\n                        this._sendHit(decodeURIComponent(encodeURIComponent('custom.video.progress')), true)\n                    }\n                },\n                _vidMuted: function(data) {\n                    if (this._asData.justMuted === false && data.volume === 0) {\n                        this._asData.justMuted = true;\n                        this._sendHit(\"custom.video.mute\", false)\n                    } else if (this._asData.justMuted && data.volume > 0) {\n                        this._asData.justMuted = false;\n                        this._sendHit(\"custom.video.unmute\", false)\n                    }\n                },\n                _vidFullScreen: function() {\n                    if (document.fullscreenElement ||\n                        document.mozFullScreen || document.webkitIsFullScreen || document.msFullscreenElement || document.fullScreen) this._sendHit(\"custom.video.fullscreen\", false)\n                },\n                _sendHit: function(ev, ni) {\n                    this._asData.eventType = ev;\n                    this._asData.nonInteraction = ni;\n                    this._asData.hitValue = ev.match(/progress|complete/i) ? this._asData.hitValue : null;\n                    _asSendHit(this._asData)\n                },\n                setListeners: function() {\n                    this.on(\"play\", function() {\n                        this._vidPlay()\n                    }, true);\n                    this.on(\"pause\", function() {\n                        this._vidPause()\n                    }, true);\n                    this.on(\"seeked\", function() {\n                        this._vidSeek()\n                    }, true);\n                    this.on(\"ended\", function() {\n                        this._vidComplete()\n                    }, true);\n                    this.on(\"timeupdate\", function(data) {\n                        this._vidMilestones(data)\n                    }, true);\n                    this.on(\"volumechange\", function(data) {\n                        this._vidMuted(data)\n                    }, true);\n                    this.on(\"fullscreenchange\", function() {\n                        this._vidFullScreen()\n                    }, true);\n                    this.on(\"webkitfullscreenchange\", function() {\n                        this._vidFullScreen()\n                    }, true);\n                    this.on(\"mozfullscreenchange\", function() {\n                        this._vidFullScreen()\n                    }, true);\n                    this.on(\"msfullscreenchange\", function() {\n                        this._vidFullScreen()\n                    }, true)\n                }\n            };\n\n            function _asProcessIframeToVideo(iframe) {\n                var Vimeo =\n                    window.Vimeo;\n                var _asVideo = new Vimeo.Player(iframe);\n                _asVideo._asData = {\n                    eventType: undefined,\n                    videoTitle: \"not set\",\n                    videoPlayer: \"Vimeo_iframe\",\n                    videoLength: \"not set\",\n                    videosrc: iframe.src,\n                    milestones: [25, 50, 75],\n                    firstPlay: true,\n                    autoplay: iframe.src.indexOf(\"autoplay=1\") !== -1,\n                    justSeeked: false,\n                    justFinished: false,\n                    justMuted: false,\n                    vidLoaded: false,\n                    nonInteraction: null,\n                    hitValue: 0\n                };\n                _asExtendFunctions(_asVideo, _asVideoObjectAdditions);\n                _asVideo.setListeners();\n                _asVideos.push(_asVideo);\n                _asVideo._vidLoaded();\n                iframe._asProcessed =\n                    true\n            }\n\n            function _asInfiniteScrollGetVids() {\n                function getdocheight() {\n                    var b = document.body,\n                        e = document.documentElement;\n                    return document.height || Math.max(Math.max(b.scrollHeight, e.scrollHeight), Math.max(b.offsetHeight, e.offsetHeight), Math.max(b.clientHeight, e.clientHeight))\n                }\n                var _asMaxHeight = getdocheight();\n                window.setInterval(function() {\n                    var _asBufferHeight = 100;\n                    var _asCurrentHeight = Math.max(_asMaxHeight, getdocheight());\n                    if (_asCurrentHeight > _asMaxHeight + _asBufferHeight) {\n                        _asMaxHeight = _asCurrentHeight;\n                        _asGetVimeoIframes();\n                        _asVimeoIframes.map(function(iframe) {\n                            if (!iframe._asProcessed) _asProcessIframeToVideo(iframe)\n                        })\n                    }\n                }, 3E3)\n            }\n\n            var _asVideos = [];\n            var _asApiInterval;\n            var _asApiCurrentTime = 0;\n            var _asVimeoIframes;\n            var _asDebounceSeek = false;\n            var _asDebounceMilestone = false;\n\n            if(typeof window.gtm_video_vimeo_tracker == 'undefined') {\n                window.gtm_video_vimeo_tracker = {};\n            }\n            window.gtm_video_vimeo_tracker._asCheckForVideos = function(){\n\n                _asVideos = [];\n                _asVimeoIframes = undefined;\n                clearInterval(_asApiInterval);\n                _asDebounceSeek = false;\n                _asDebounceMilestone = false;\n\n                //console.log(\"_asCheckForVideos()\")\n                if(typeof window.gtm_video_vimeo_tracker._asCheckForVideosInterval != 'undefined'){\n                    //console.log(\"clear existing _asCheckForVideos()\")\n                    clearInterval(window.gtm_video_vimeo_tracker._asCheckForVideosInterval);\n                }\n                window.gtm_video_vimeo_tracker._asCheckForVideosInterval = setInterval(function() {\n                    //console.log(\"check iframes\")\n                    _asGetVimeoIframes();\n                    if (_asVimeoIframes.length > 0) {\n                        //console.log(\"video found, clear\")\n                        clearInterval(window.gtm_video_vimeo_tracker._asCheckForVideosInterval);\n                        _asEmbedVimeoAPI()\n                    }\n                }, 500);\n                setTimeout(function() {\n                     //console.log(\"video timeout clear\")\n                    clearInterval(window.gtm_video_vimeo_tracker._asCheckForVideosInterval)\n                }, 3000);\n            }\n            /*setTimeout(function() {\n                    _asInfiniteScrollGetVids()\n            }, 5E3)*/\n        }\n        _asInitiateVideoTracking();\n    })(); \n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1597728757334",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "77",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "paused": true,
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "136",
+                "name": "CHTML - Vimeo - dataLayer - Check - WOVG",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>\n(function(){\n  try {\n    window.gtm_video_vimeo_tracker._asCheckForVideos();\n  } catch (err){if({{Debug Mode}}) console.log(err)};\n})();\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1597728764213",
+                "firingTriggerId": [
+                    "135"
+                ],
+                "parentFolderId": "77",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "paused": true,
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "139",
+                "name": "GA - Event - Video - Custom - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "video"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "{{DLV - eventLabel - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "{{LTR - Video - Status - Label - WOVG}}"
+                    }
+                ],
+                "fingerprint": "1597635648377",
+                "firingTriggerId": [
+                    "138"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "tagId": "142",
+                "name": "GA - Event - Navigation - Menu - Header - Home - Click - WOVG",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "navigation"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAS - Prod - WOVG}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "menu | header"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "home | {{Page Path}}"
+                    }
+                ],
+                "fingerprint": "1597714988588",
+                "firingTriggerId": [
+                    "141"
+                ],
+                "parentFolderId": "15",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "5",
+                "name": "CE - custom.form.abandonment - WOVG",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "custom.form.abandonment"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1597728935874",
+                "parentFolderId": "4"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "35",
+                "name": "Page - DOM Ready - Page Not Found - WOVG",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{CJS - Page - 404 - WOVG}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "yes"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1597635533627",
+                "parentFolderId": "4"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "41",
+                "name": "Click - Link - Email - WOVG",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "STARTS_WITH",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "mailto"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1593580567739",
+                "parentFolderId": "4"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "61",
+                "name": "Timer - 30s - WOVG",
+                "type": "TIMER",
+                "autoEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page Path}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".*"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "eventName": {
+                    "type": "TEMPLATE",
+                    "value": "gtm.timer"
+                },
+                "interval": {
+                    "type": "TEMPLATE",
+                    "value": "30000"
+                },
+                "limit": {
+                    "type": "TEMPLATE",
+                    "value": "1"
+                },
+                "fingerprint": "1593580567746",
+                "parentFolderId": "4"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "68",
+                "name": "Form Submit - WOVG",
+                "type": "FORM_SUBMISSION",
+                "waitForTags": {
+                    "type": "TEMPLATE"
+                },
+                "checkValidation": {
+                    "type": "TEMPLATE"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1593580567748",
+                "parentFolderId": "4"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "78",
+                "name": "Page - DOM Ready - Form - Present - WOVG",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{CJS - Form - WOVG}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "no-form"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1593580567753",
+                "parentFolderId": "4"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "80",
+                "name": "Click - Link - Header - Top - Nav - WOVG - Config",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "CSS_SELECTOR",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Element}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "#nav a"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1593580567753",
+                "parentFolderId": "31"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "81",
+                "name": "CE - routeChange - WOVG",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "routeChange"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1596414584284",
+                "parentFolderId": "4"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "83",
+                "name": "Click - Link - Download - WOVG",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "\\.pdf|\\.xls|\\.doc|\\.png|\\.jp|\\.mp3|\\.mp4|\\.ppt|\\.ai|\\.csv|\\.dot|\\.eps$|\\.ics$|\\.indd$|\\.tif$|\\.txt$|\\.zip$"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1595227238799",
+                "parentFolderId": "4"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "85",
+                "name": "Scroll Depth - WOVG",
+                "type": "SCROLL_DEPTH",
+                "fingerprint": "1593580567756",
+                "parentFolderId": "4",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "verticalThresholdUnits",
+                        "value": "PERCENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "verticalThresholdsPercent",
+                        "value": "50,100"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "verticalThresholdOn",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "triggerStartOption",
+                        "value": "WINDOW_LOAD"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "horizontalThresholdOn",
+                        "value": "false"
+                    }
+                ]
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "89",
+                "name": "Click - Link - Footer - WOVG - Config",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "CSS_SELECTOR",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Element}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "footer a"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1593580567758",
+                "parentFolderId": "31"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "94",
+                "name": "Click - Link - Button - CTA - WOVG - Config",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "CSS_SELECTOR",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Element}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "a.cta, a.btn"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1593580567762",
+                "parentFolderId": "31"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "96",
+                "name": "Click - Link - Telephone - WOVG",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "tel:|fax:"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1593580567848",
+                "parentFolderId": "4"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "104",
+                "name": "Click - Link - External - WOVG - Config",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "STARTS_WITH",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "http"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{CJS - Click - URL - Type - WOVG}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "external"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1597636302303",
+                "parentFolderId": "31",
+                "notes": "This trigger will target \"external\" link clicks. This may need to be configured for your website depending on where it is hosted. For example if your domain is part of .vic.gov.au then other sub-domain departments should be considered \"external\". You can use \"external|subdomain\" in this situation. Otherwise re-work this trigger to correctly track your external links if required."
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "110",
+                "name": "YouTube - WOVG",
+                "type": "YOU_TUBE_VIDEO",
+                "fingerprint": "1593580567855",
+                "parentFolderId": "4",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "progressThresholdsPercent",
+                        "value": "10,25,50,75,90"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "captureComplete",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "captureStart",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "fixMissingApi",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "triggerStartOption",
+                        "value": "DOM_READY"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "radioButtonGroup1",
+                        "value": "PERCENTAGE"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "capturePause",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "captureProgress",
+                        "value": "true"
+                    }
+                ]
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "117",
+                "name": "CE - custom.general.event - WOVG",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "custom.general.event"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1593580567858",
+                "parentFolderId": "4"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "133",
+                "name": "CE - All - Scrolling Not Activated - WOVG",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".*"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{LTR - Scrolling - Activated - Page - WOVG - Config}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "yes"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1597635387048",
+                "parentFolderId": "4"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "135",
+                "name": "Page - DOM Ready - WOVG",
+                "type": "DOM_READY",
+                "fingerprint": "1597714542094",
+                "parentFolderId": "4"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "137",
+                "name": "Page - Window Loaded - WOVG",
+                "type": "WINDOW_LOADED",
+                "fingerprint": "1597635566163",
+                "parentFolderId": "4"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "138",
+                "name": "CE - custom.video - Actions - WOVG",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "custom.video.(start|autoplay|resume|pause|seek|progress|complete|mute|unmute|fullscreen)"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1597635636938",
+                "parentFolderId": "4"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "triggerId": "141",
+                "name": "Click - Link - Header - Top - Nav - Home - WOVG - Config",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Classes}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": ".my-home-link-class"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1597714980759",
+                "parentFolderId": "31"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "7",
+                "name": "Const - UA - ID - Prod - WOVG - Config",
+                "type": "c",
+                "notes": "Your Google Analytics Property ID e.g. UA-xxxxxxxxx-x \nhttps://support.google.com/tagmanager/answer/9207621#ga_id",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "UA-123456789-0"
+                    }
+                ],
+                "fingerprint": "1593580567725",
+                "parentFolderId": "6",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "12",
+                "name": "Const - UA - ID - Test - WOVG - Config",
+                "type": "c",
+                "notes": "Your Testing/QA Google Analytics Property ID e.g. UA-xxxxxxxxx-x \nThis is a dedicated Google Analytics Property for test data, it is used so that your uat environments don't send data into your live Google Analytics reports.\nhttps://support.google.com/tagmanager/answer/9207621#ga_id",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "UA-123456789-0"
+                    }
+                ],
+                "fingerprint": "1593580567727",
+                "parentFolderId": "6",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "13",
+                "name": "Const - Hostname - For Website - WOVG - Config",
+                "type": "c",
+                "notes": "Please set your host name in the value field, without \"www.\" e.g. my-domain.gov.au",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "vic.gov.au"
+                    }
+                ],
+                "fingerprint": "1593580567728",
+                "parentFolderId": "6",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "14",
+                "name": "CJS - Hostname Debug - WOVG",
+                "type": "jsm",
+                "notes": "Combines the current website host name with GTM's flag for preview mode. The returned value can then be used to determine the difference between Prod/UAT environments events and when GTM is in testing mode. Very handy to prevent tracking from going into live accounts while testing.",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function(){\n    return 'host='+{{Page Hostname}}+'|debug='+{{Debug Mode}};\n}"
+                    }
+                ],
+                "fingerprint": "1596275556687",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "16",
+                "name": "LTR - Hostname To UA - WOVG",
+                "type": "remm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{CJS - Hostname Debug - WOVG}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "fullMatch",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "replaceAfterMatch",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "ignoreCase",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "{{Const - UA - ID - Test - WOVG - Config}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": ".*debug=true"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Const - UA - ID - Test - WOVG - Config}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "host=(www\\.)?{{Const - Hostname - For Website - WOVG - Config}}.*"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Const - UA - ID - Prod - WOVG - Config}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1593580567729",
+                "parentFolderId": "15",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "17",
+                "name": "Const - GTM - Release - Version - WOVG",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "1.4 | BASE"
+                    }
+                ],
+                "fingerprint": "1597718121108",
+                "parentFolderId": "8",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "19",
+                "name": "DOM - Meta - Content Type - WOVG - Config",
+                "type": "d",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "elementSelector",
+                        "value": "meta[name=\"content-type\"]"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "attributeName",
+                        "value": "content"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "selectorType",
+                        "value": "CSS"
+                    }
+                ],
+                "fingerprint": "1593581445669",
+                "parentFolderId": "31",
+                "formatValue": {
+                    "caseConversionType": "LOWERCASE",
+                    "convertNullToValue": {
+                        "type": "TEMPLATE",
+                        "value": "no-value"
+                    },
+                    "convertUndefinedToValue": {
+                        "type": "TEMPLATE",
+                        "value": "no-value"
+                    }
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "20",
+                "name": "URL - Click - File Extension - WOVG",
+                "type": "u",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "EXTENSION"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "customUrlSource",
+                        "value": "{{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1593580567731",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "21",
+                "name": "LTR - Click URL - Download Type - WOVG",
+                "type": "remm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{URL - Click - File Extension - WOVG}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "fullMatch",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "replaceAfterMatch",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "ignoreCase",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "{{URL - Click - File Extension - WOVG}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "ai$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Adobe Illustrator"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "csv$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Comma Separated Values"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "(doc|docx)$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Word Document"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "(dot|dot(m|x))$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Word Template"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "eps$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Encapsulated Postscript"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "ics$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Calendar"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "indd$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Adobe InDesign"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "pdf$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "PDF"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "(ppt|pptx)$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "PowerPoint"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "tif$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Tagged Image File"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "txt$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Text File"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "(xls|xlsx)$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Excel Spreadsheet"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "zip$"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "Zip Archive"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1593580567731",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "22",
+                "name": "URL - Query - WOVG",
+                "type": "u",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "QUERY"
+                    }
+                ],
+                "fingerprint": "1593580567732",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "23",
+                "name": "URL - Fragment - WOVG",
+                "type": "u",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "FRAGMENT"
+                    }
+                ],
+                "fingerprint": "1593580567732",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "24",
+                "name": "CJS - URL - Query - WOVG",
+                "type": "jsm",
+                "notes": "Return the combination of the current url query string (?) and anchor/fragment (#) if they exist in the current page url. Google Analytics will strip anchors and in some cases filter the query strings from reports. This variable is used to populate a custom dimension if this data needs to be preserved.",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function(){\n  var query = {{URL - Query - WOVG}};\n  var fragment = {{URL - Fragment - WOVG}};\n  var value = query && query.length > 0 ? query : '';\n  value += fragment && fragment.length > 0 ? '#'+fragment : '';\n  return value && value.length > 0 ? value : 'no-value';\n}"
+                    }
+                ],
+                "fingerprint": "1596276148541",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "25",
+                "name": "URL - Hostname - WOVG",
+                "type": "u",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "stripWww",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "HOST"
+                    }
+                ],
+                "fingerprint": "1593580567733",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "26",
+                "name": "CJS - Custom Task - WOVG",
+                "type": "jsm",
+                "notes": "customTask is part of the analytics.js (Google Universal Analytics) functionality. It allows for the manipulation of all GA tracking hits before they are sent to the Google Analytics server.\n\nWe use this feature to set common custom dimensions like the _ga cookie id (unique google analytics user identifier), session id, timestamp  and providing a basic level of PII (personal identifying information) redaction and prevention.",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n\ttry {\n      \tvar db = {{Debug Mode}};\n\t\tvar dateTime = Date.now();\n\t\tvar unix = Math.floor(dateTime / 1000);\n\t\tvar sessionId = dateTime + '.' + Math.random().toString(36).substring(3);\n  \t\t// array of PII patterns to redact, update ok-domain to current domain\n\t\tvar piiRegex = [ \n\t\t\t{name: 'EMAIL',      group: '',   regex: /[a-zA-Z0-9._%+-]+(@|%40)(?!.*{{URL - Hostname - WOVG}})[a-zA-Z0-9._-]+\\.[a-zA-Z0-9._-]+/gi},\n\t\t\t{name: 'TEL',        group: '$1', regex: /((tel=)|(telephone=)|(phone=)|(cell=)|(mobile=)|(mob=))[\\d\\+\\s][^&\\/\\?]+/gi},\n\t\t\t{name: 'NAME',       group: '$1', regex: /((firstname=)|(first=)|(lastname=)|(last=)|(surname=))[^&\\/\\?]+/gi},\n\t\t\t{name: 'PASSWORD',   group: '$1', regex: /((password=)|(passwd=)|(pass=))[^&\\/\\?]+/gi},\n\t\t\t{name: 'ZIP',        group: '$1', regex: /((postcode=)|(zipcode=)|(zip=))[^&\\/\\?]+/gi},\n\t\t\t{name: 'PAYMENT',    group: '$1', regex: /((cc=))[^&\\/\\?]+/gi},\n\t\t\t{name: 'USER',       group: '$1', regex: /((username=))[^&\\/\\?]+/gi}\n\t\t];\n  \t\t//\n\t\treturn function(customModel) {\n\t\t\ttry {\n              \t// set common custom dimensions, do not change the index's\n\t\t\t\tcustomModel.set('dimension29', customModel.get('clientId'));\n\t\t\t\tcustomModel.set('dimension30', sessionId);\n\t\t\t\tcustomModel.set('dimension32', unix);\n\n              \tvar publication = customModel.get('dimension22');\n              \tif(!publication || publication == '' || publication == 'null') {\n                \tcustomModel.set('dimension22', 'no-value');\n                }\n\n\t\t\t\tvar originalSendTask = customModel.get('sendHitTask');\n\t\t\t\tvar trackingId = customModel.get('trackingId');\n\t\t\t\tcustomModel.set('sendHitTask', function(sendModel) {\n\t\t\t\t\ttry {\n\t\t\t\t\t\tvar hitPayload = sendModel.get('hitPayload');\n\t\t\t\t\t\tvar hitPayloadParts = hitPayload.split('&');\n\t\t\t\t\t\tvar data = (hitPayload).replace(/(^\\?)/,'').split(\"&\").map(function(n){return n = n.split(\"=\"),this[n[0]] = n[1],this}.bind({}))[0];\n\t\t\t\t\t\tfor(var key in data){\n\t\t\t\t\t\t\tpiiRegex.forEach(function(pii) {  \n\t\t\t\t\t\t\t\tvar val = decodeURIComponent(data[key]);                \n\t\t\t\t\t\t\t\tif(val.match(pii.regex)){\n\t\t\t\t\t\t\t\t\tdata[key] = encodeURIComponent(val.replace(pii.regex, pii.group + '[REDACTED ' + pii.name + ']'));                \n\t\t\t\t\t\t\t\t}                        \n\t\t\t\t\t\t\t});  \n\t\t\t\t\t\t}\n\t\t\t\t\t\thitPayload = Object.keys(data).map(function(key) { return (key) + '=' + (data[key]); }).join('&');\n\t\t\t\t\t\tsendModel.set('hitPayload', hitPayload, true);\n\t\t\t\t\t\toriginalSendTask(sendModel);\n\t\t\t\t\t} catch (err) {if(db) console.log(err)};\n\t\t\t\t});\n\t\t\t} catch (err) {if(db) console.log(err)};\n\t\t};\n\t} catch (err) {if(db) console.log(err)};\n\treturn;\n}"
+                    }
+                ],
+                "fingerprint": "1597634818056",
+                "parentFolderId": "15",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "27",
+                "name": "DOM - Meta - Site Section - WOVG - Config",
+                "type": "d",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "elementSelector",
+                        "value": "meta[name=\"sitesection\"]"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "attributeName",
+                        "value": "content"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "selectorType",
+                        "value": "CSS"
+                    }
+                ],
+                "fingerprint": "1593581584452",
+                "parentFolderId": "31",
+                "formatValue": {
+                    "caseConversionType": "LOWERCASE",
+                    "convertNullToValue": {
+                        "type": "TEMPLATE",
+                        "value": "no-value"
+                    },
+                    "convertUndefinedToValue": {
+                        "type": "TEMPLATE",
+                        "value": "no-value"
+                    }
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "29",
+                "name": "GAS - Prod - WOVG",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "doubleClick",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setTrackerName",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useDebugVersion",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "transport"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "beacon"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "customTask"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{CJS - Custom Task - WOVG}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "page"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{CJS - Page Path - Clean - WOVG}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "useHashAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decorateFormsAutoLink",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "dimension",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "21"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{DOM - Meta - Site Section - WOVG - Config}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "22"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "no-value"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "23"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{DOM - Meta - Content Type - WOVG - Config}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "24"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{Container ID}} | {{Const - GTM - Release - Version - WOVG}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "25"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{Container Version}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "28"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{Event}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "34"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{CJS - URL - Query - WOVG}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableEcommerce",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "{{LTR - Hostname To UA - WOVG}}"
+                    }
+                ],
+                "fingerprint": "1597635016419",
+                "parentFolderId": "15"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "32",
+                "name": "Const - Page Not Found - CSS - WOVG - Config",
+                "type": "c",
+                "notes": "Please use a CSS Selector to target the HTML element on page that hold the 404 error message / title. e.g. .app-error-intro\nThis will override using the document.title to compare to the Page Not Found Text.",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "#no-value-set"
+                    }
+                ],
+                "fingerprint": "1595226126874",
+                "parentFolderId": "31",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "33",
+                "name": "Const - Page Not Found - Text - WOVG - Config",
+                "type": "c",
+                "notes": "Please update with plain text, the title or part of the title when your page returns a 404 not found. e.g. not found,404,etc",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "404 error"
+                    }
+                ],
+                "fingerprint": "1593580567736",
+                "parentFolderId": "6",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "34",
+                "name": "CJS - Page - 404 - WOVG",
+                "type": "jsm",
+                "notes": "This custom script attempts to identify the current page as a 404 error page. It will first review the document.title (browser page title) for expected matches from the configuration variables. If no match is found it will attempt to use the css selector configuration to read off the html targeted elements. This is used as part of a trigger condition to fire a 404 page load event.",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function(){\n  var checkValue = document.title;\n  // get the text to match to (in any method)\n  var pageNotFoundText = {{Const - Page Not Found - Text - WOVG - Config}};\n  // get the configured css selector to taget the html element that will hold display text to the user\n  var pageNotFoundCSS = {{Const - Page Not Found - CSS - WOVG - Config}};\n  // create a regex\n  var re = new RegExp(pageNotFoundText, 'ig');\n  // test for the document title first\n  if(re.test(checkValue)){\n    return 'yes';\n  } else {\n    // use the css selector\n    var el = document.querySelector(pageNotFoundCSS);\n    if(el) {\n      // get the text content from a succesful return of a targeted element\n      checkValue = el.innerText || el.textContent;\n      // test agaist the css selector\n      if(re.test(checkValue)){\n        return 'yes';\n      }\n    }\n  }\n  return 'no';\n}"
+                    }
+                ],
+                "fingerprint": "1596275650993",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "36",
+                "name": "CJS - Referrer - WOVG",
+                "type": "jsm",
+                "notes": "Return the current browser page referrer. This can be an empty string in some cases, we replace this with a no-value for better reporting and matching.",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function(){\n  var r = {{Referrer}};\n  return r && r.length > 0 ? r : 'no-value';\n}"
+                    }
+                ],
+                "fingerprint": "1596275660682",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "42",
+                "name": "Const - Hotjar Site ID - WOVG - Config",
+                "type": "c",
+                "notes": "Please use your Hotjar Site ID e.g. 1217209. If you do not have a Hotjar Site ID / Account then leave the value as \"0\"",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "0"
+                    }
+                ],
+                "fingerprint": "1593580567739",
+                "parentFolderId": "6",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "47",
+                "name": "CJS - Click - Label - WOVG",
+                "type": "jsm",
+                "notes": "A custom script to improve the identification and labeling of html elements clicked on the website. Not all buttons on a website have click text e.g. images. This script provides a fallback for elements that do not have a value for the click text. It will search for known attributes and child elements for fall backs. This will not cover all cases but greatly improves the labeling for clicked elements.",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function(){\n  \t// get the current elements clicked text\n    var text = {{Click Text}};\n\t// remove white space\n    text = text ? text.trim() : undefined;\n    try {\n      \t// a function to cycle through attributes on the target supplied\n        var checkAttributes = function(text, target, attributes){\n            try {\n                if(target && typeof target.getAttribute != 'undefined') {\n                    for (var i = 0; i<attributes.length; i++) {\n                        var value = target.getAttribute(attributes[i]);\n                        if(value && value.length > 0) {\n                            text = value.trim();\n                            break;\n                        }\n                    }\n                }\n            } catch (err){};\n            return text;\n        }\n        // get the current clicked element\n        var currentElement = {{Click Element}};\n\t\t// check if the element has click text\n        if(!text || text.length == 0){\n          \t// search the current element\n            text = checkAttributes(text, currentElement, ['title', 'alt', 'src', 'aria-label', 'id', 'class']);\n          \t// does the element have children elements\n          \tvar childs;\n          \tif(currentElement && typeof currentElement.children != 'undefined') {\n              childs = currentElement.children;\n            }\n            if(childs && childs.length > 0){\n              \t// search the first child for preferred attrbiutes e.g an image name or title\n           \t\ttext = checkAttributes(text, childs[0], ['title', 'alt', 'src', 'aria-label']);\n       \t\t}\n        }\n    } catch (err) {};\n\t// if no value is found set a defult\n\tif(!text || text.length == 0) {\n        text = 'no-text';\n    }\n    return text;\n}"
+                    }
+                ],
+                "fingerprint": "1596275627342",
+                "parentFolderId": "4",
+                "formatValue": {
+                    "caseConversionType": "LOWERCASE"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "51",
+                "name": "DLV - eventLabel - WOVG",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "no-value"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "eventLabel"
+                    }
+                ],
+                "fingerprint": "1593580567742",
+                "parentFolderId": "50",
+                "formatValue": {
+                    "caseConversionType": "LOWERCASE",
+                    "convertNullToValue": {
+                        "type": "TEMPLATE",
+                        "value": "no-value"
+                    },
+                    "convertUndefinedToValue": {
+                        "type": "TEMPLATE",
+                        "value": "no-value"
+                    }
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "52",
+                "name": "DLV - group - WOVG",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "no-value"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "group"
+                    }
+                ],
+                "fingerprint": "1593580567743",
+                "parentFolderId": "50",
+                "formatValue": {
+                    "caseConversionType": "LOWERCASE",
+                    "convertNullToValue": {
+                        "type": "TEMPLATE",
+                        "value": "no-value"
+                    },
+                    "convertUndefinedToValue": {
+                        "type": "TEMPLATE",
+                        "value": "no-value"
+                    }
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "53",
+                "name": "DLV - pagePathTarget - WOVG",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "pagePathTarget"
+                    }
+                ],
+                "fingerprint": "1593580567743",
+                "parentFolderId": "50",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "55",
+                "name": "Const - Form - CSS - Selector - WOVG - Config",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": ".rpl-form,#no-value-set"
+                    }
+                ],
+                "fingerprint": "1597728861734",
+                "parentFolderId": "31",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "56",
+                "name": "CJS - Form - WOVG",
+                "type": "jsm",
+                "notes": "This script will use the configured form css selector variable to find the first form matched on the current page. It will only return the first match.",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function(){\n  // get css selector from configuration\n  var css = {{Const - Form - CSS - Selector - WOVG - Config}};\n  if(css) {\n    // id a css selector has been provided apply a query select on the document and return the first match\n    var form = document.querySelector(css);\n    return form ? form : 'no-form';\n  }\n  return 'no-form';\n}"
+                    }
+                ],
+                "fingerprint": "1596275672705",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "63",
+                "name": "URL - Hostname - Click - WOVG",
+                "type": "u",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "stripWww",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "HOST"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "customUrlSource",
+                        "value": "{{Click URL}}"
+                    }
+                ],
+                "fingerprint": "1593580567747",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "64",
+                "name": "CJS - Click - URL - Type - WOVG",
+                "type": "jsm",
+                "notes": "This script will extract the current targeted click url hostname and compare it to the current website hostname. It will then determine if the clicked url is an internal,subdomain or external link.",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function(){\n  try {\n    var clickHost = {{URL - Hostname - Click - WOVG}};\n  \tvar host = {{URL - Hostname - WOVG}};\n\tif(clickHost.indexOf(host) !== -1) {\n      if(clickHost === host) {\n        return 'internal';\n      } else if(clickHost.indexOf('.'+host) >= 0) {\n    \treturn 'subdomain';\n      }\n    }\n    return 'external'\n  } catch(err){};\n  return 'unknown';\n}"
+                    }
+                ],
+                "fingerprint": "1596275686580",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "69",
+                "name": "CJS - Form - Name - WOVG",
+                "type": "jsm",
+                "notes": "This script will evaluate the current form element, looking to provide a friendly reporting label. It will first attempt to use the name attribute, then a id, otherwise the forms parent html element classes.",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function(){\n  // get current form\n  var form = {{Form Element}};\n  var name = 'no-value';\n  if(form) {\n    // look to see if the form has a name attribute, then an id, otherwise it will attempt to use the parent element classes\n    if(typeof form.name != 'undefined' && form.name.length > 0) {\n      name = form.name;\n      \n    } else if(typeof form.id != 'undefined' && form.id.length > 0) {\n      name = form.id;\n    } else {\n      var pt = form.parentNode;\n      name = pt && pt.className ? pt.className.trim() : name;\n    }\n  }\n  return name;\n}"
+                    }
+                ],
+                "fingerprint": "1596275697431",
+                "parentFolderId": "4",
+                "formatValue": {
+                    "caseConversionType": "LOWERCASE"
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "74",
+                "name": "URL - Query - q - WOVG",
+                "type": "u",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "QUERY"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "queryKey",
+                        "value": "q"
+                    }
+                ],
+                "fingerprint": "1593580567751",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "91",
+                "name": "URL - Click - Path - WOVG",
+                "type": "aev",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "varType",
+                        "value": "URL"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "PATH"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "defaultPages"
+                    }
+                ],
+                "fingerprint": "1593580567759",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "107",
+                "name": "DLV - eventCategory - WOVG",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "no-value"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "eventCategory"
+                    }
+                ],
+                "fingerprint": "1593580567853",
+                "parentFolderId": "50",
+                "formatValue": {
+                    "caseConversionType": "LOWERCASE",
+                    "convertNullToValue": {
+                        "type": "TEMPLATE",
+                        "value": "no-value"
+                    },
+                    "convertUndefinedToValue": {
+                        "type": "TEMPLATE",
+                        "value": "no-value"
+                    }
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "116",
+                "name": "DLV - eventAction - WOVG",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "no-value"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "eventAction"
+                    }
+                ],
+                "fingerprint": "1593580567857",
+                "parentFolderId": "50",
+                "formatValue": {
+                    "caseConversionType": "LOWERCASE",
+                    "convertNullToValue": {
+                        "type": "TEMPLATE",
+                        "value": "no-value"
+                    },
+                    "convertUndefinedToValue": {
+                        "type": "TEMPLATE",
+                        "value": "no-value"
+                    }
+                }
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "127",
+                "name": "LTR - Video - Status - Label - WOVG",
+                "type": "remm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{Video Status}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "fullMatch",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "replaceAfterMatch",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "{{Video Status}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "ignoreCase",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "progress"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "progress | {{Video Percent}}%"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1597714356966",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "130",
+                "name": "Const - Query - Accepted - WOVG - Config",
+                "type": "c",
+                "notes": "Set the accepted query keys to be tracked as part of the page path. These values will appear in Google Analytics reports.\nYou can set multiple query keys by separating by  a comma \",\" e.g. q,search,page etc.\nIf you would like to accept all query string then only use \"*\" as the value.",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "q"
+                    }
+                ],
+                "fingerprint": "1597634872539",
+                "parentFolderId": "31",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "131",
+                "name": "CJS - Page Path - Clean - WOVG",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function(){\n  var path = {{Page Path}};\n  var query = {{URL - Query - WOVG}};\n  var queryConfig = {{Const - Query - Accepted - WOVG - Config}};\n  var queryList = queryConfig && queryConfig.length > 0 ? queryConfig.split(',') : undefined;\n  var queryReplace = '';\n  if(/\\*/.test(queryConfig)){\n    return undefined;\n  } else if(query && query.length > 0) {\n    queryList.forEach(function(value) {\n      if(query.indexOf(value+'=') >= 0){\n        queryReplace += queryReplace == '' ? '?' : '&';  \n        queryReplace +=  value +'='+query.split(value+'=')[1].split('&')[0];\n      }                        \n    });\n    return path+queryReplace;\n  }\n  return path;\n}"
+                    }
+                ],
+                "fingerprint": "1597634961263",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "variableId": "132",
+                "name": "LTR - Scrolling - Activated - Page - WOVG - Config",
+                "type": "remm",
+                "notes": "This acts as an \"allow list\" to add scroll tracking to only certain pages",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{Page URL}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "fullMatch",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "replaceAfterMatch",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "no"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "ignoreCase",
+                        "value": "true"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": ".*my-page-path"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "yes"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1597728736708",
+                "parentFolderId": "31",
+                "formatValue": {
+                    "caseConversionType": "LOWERCASE"
+                }
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "folderId": "3",
+                "name": "Service - Third Party",
+                "fingerprint": "1593580567723"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "folderId": "4",
+                "name": "GTM - Shared",
+                "fingerprint": "1593580567724"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "folderId": "6",
+                "name": "#1 - GTM  - Configuration Variables",
+                "fingerprint": "1593580567725"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "folderId": "8",
+                "name": "Service - WOVG",
+                "fingerprint": "1593580567726"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "folderId": "10",
+                "name": "Website - Department",
+                "fingerprint": "1593581058844"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "folderId": "15",
+                "name": "Service - Google Analytics",
+                "fingerprint": "1593580567728"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "folderId": "31",
+                "name": "#2 - GTM - Configuration Advanced",
+                "fingerprint": "1593580567735"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "folderId": "50",
+                "name": "GTM - dataLayer",
+                "fingerprint": "1593580567742"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "folderId": "77",
+                "name": "GTM - Utility",
+                "fingerprint": "1593580567752"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "folderId": "106",
+                "name": "zRetired - Configurations - WOVG",
+                "fingerprint": "1593580567853"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "EVENT",
+                "name": "Event"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "CLICK_ELEMENT",
+                "name": "Click Element"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "CLICK_CLASSES",
+                "name": "Click Classes"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "CLICK_ID",
+                "name": "Click ID"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "CLICK_URL",
+                "name": "Click URL"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "CLICK_TEXT",
+                "name": "Click Text"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "FORM_ELEMENT",
+                "name": "Form Element"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "FORM_CLASSES",
+                "name": "Form Classes"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "FORM_ID",
+                "name": "Form ID"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "FORM_TARGET",
+                "name": "Form Target"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "FORM_URL",
+                "name": "Form URL"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "FORM_TEXT",
+                "name": "Form Text"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "ERROR_MESSAGE",
+                "name": "Error Message"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "ERROR_LINE",
+                "name": "Error Line"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "CONTAINER_VERSION",
+                "name": "Container Version"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "DEBUG_MODE",
+                "name": "Debug Mode"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "CONTAINER_ID",
+                "name": "Container ID"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "VIDEO_TITLE",
+                "name": "Video Title"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "VIDEO_DURATION",
+                "name": "Video Duration"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "VIDEO_PERCENT",
+                "name": "Video Percent"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "VIDEO_STATUS",
+                "name": "Video Status"
+            },
+            {
+                "accountId": "4702060792",
+                "containerId": "31801223",
+                "type": "SCROLL_DEPTH_THRESHOLD",
+                "name": "Scroll Depth Threshold"
+            }
+        ],
+        "fingerprint": "1597788138388",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/4702060792/containers/31801223/versions/0?apiLink=version"
+    }
+}
