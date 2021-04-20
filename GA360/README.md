@@ -35,16 +35,17 @@ Your production property should have at least two (2) views
 2. **Prod - Filtered - dpc.vic.gov.au**
 
 ##### Recomended filters
-* Lowercase Request URI
 * Lowercase Campaign Source
 * Lowercase Campaign Medium
 * Lowercase Campaign Name
+* Lowercase Page Title
 * Lowercase Search Term
-* Lowercase Event Category
+* Lowercase Hostname
+* Lowercase Request URI
 * Lowercase Event Action
 * Lowercase Event Label
-* Include Only Hostname (e.g. dpc.vic.gov.au)
 * Remove www from Hostname
+
 
 Your Test property only needs one view, though you can set up other views to test features before moving to the production view
 1. **Test - Raw - dpc.vic.gov.au**
