@@ -60,7 +60,9 @@ content.read.time (h-39) | HIT | Active
 #### Views:
 Your production property should have at least two (2) views
 
-1. **Prod - Raw - dpc.vic.gov.au**
+1. **Prod - Raw - dpc.vic.gov.au** In the view settings:
+  * Uncheck **Bot Filtering**
+  * Turn on **Site search Tracking** but don't strip the query 
 2. **Prod - Filtered - dpc.vic.gov.au**
 
 ##### Recomended filters
@@ -77,4 +79,4 @@ Your production property should have at least two (2) views
 * Remove www from Hostname ([?](https://user-images.githubusercontent.com/32256920/116497240-37fbe200-a8ea-11eb-88d5-83258603e2be.png))
 
 Your Test property only needs one view, though you can set up other views to test features before moving to the production view
-1. **Test - Raw - dpc.vic.gov.au**
+1. **Test - Raw - dpc.vic.gov.au** Use the same settings as your **Prod - Raw** view.
