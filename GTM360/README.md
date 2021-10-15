@@ -30,14 +30,14 @@ Edit the following constants as needed.
     * Please set your host name in the value field, without "www." e.g. my-domain.vic.gov.au
 2. Const - Hotjar Site ID - WOVG - Config
     * Please use your Hotjar Site ID e.g. 1234567. If you do not have a Hotjar Site ID / Account then leave the value as "0"
-4. Const - Page Not Found - Text - WOVG - Config
+3. Const - Page Not Found - Text - WOVG - Config
     * Please update with plain text, the title or part of the title when your page returns a 404 not found. e.g. not found, 404, etc.
-5. Const - UA - ID - Prod - WOVG - Config
+4. Const - UA - ID - Prod - WOVG - Config
     * Your Google Analytics Property ID e.g. UA-xxxxxxxxx-x 
-6. Const - UA - ID - Test - WOVG - Config
+5. Const - UA - ID - Test - WOVG - Config
     * Your Testing/QA Google Analytics Property ID e.g. UA-xxxxxxxxx-x 
     * This is a dedicated Google Analytics Property for test data, it is used so that your UAT or test environments don't send data into your live Google Analytics reports.
-Note for constants 5 & 6:
+Note for constants 4 & 5:
 https://support.google.com/tagmanager/answer/9207621#ga_id
 
 Then open, #2 - GTM - Configuration Advanced, and edit as needed:
