@@ -1,8 +1,6 @@
 # Set up and report performance measurement for the WoVG with Google Tag Manager
 Use these instructions to comply with the mandatory standard for the Victorian government for adding the Google Analytics tracking code to your website.
 
-This process is **NOT** for Single Digital Presence sites.
-
 ## Configure Google Tag Manager (GTM)
 Use Google Tag Manager to manage tags (such as measurement and marketing optimization JavaScript tags) on your site. Without editing your site code, you use the GTM user interface to add and update Google Ads, Google Analytics, Floodlight, and non-Google tags. This reduces errors and allows you to deploy tags on your site quickly.
 Google Tag Manager replaces all your measurement and marketing tags with a single, asynchronously loading tag—so your tags can fire faster without getting in each other’s way.
@@ -13,17 +11,47 @@ If your agency or department doesn’t have a GTM account, follow [these instruc
 #### GTM Naming Convention
 This is the WoVG naming convention for Google Tag Manager containers.
 
+Please create your GTM Container under your Departmental GTM Account. If you are unsure how to access this account please reach out to the DPC Analytics team or the team that manages your analytics.
+
 Use your primary domain name, don’t include the www from the hostname.
 
 For the Department of Premier and Cabinet, this would be:
-* **dpc.vic.gov.au**
+- **dpc.vic.gov.au**
+
+## Table of Contents
+1. [Initial Setup and Import](initial-setup-and-import.md)
+  1. Export - GTM - Container Template
+  2. A - New Import of GTM Container Template
+  3. B - Existing Import of GTM Container Template
+2. Configuration
+  1. Configure #1 - GTM - Configuration Variables
+  2. Configure #2 - GTM - Configuration Advanced
+3. Custom Dimensions
+4. Non SDP Configuration Support
+  - CHTML - Caretaker - message.js - WOVG
+  - GA - Pageview - WOVG
+  - GA - Event - Content - Feedback - Cancel - SDP
+  - GA - Event - Content - Feedback - SDP
+  - GA - Event - Content - Feedback - Submit - SDP
+  - GA - Event - Form - Complete - WOVG
+  - GA - Event - Navigation - SDP
+  - GA - Event - Navigation - Search - Result - Click - SDP
+  - GA - Event - Social Media Share - SDP
+  - GA4 - Configuration
+  - GA4 - Event - Content - Error - Page not found - SDP
+
+
+
+
+
+
 
 #### GTM Installation
 Then add the container to every page of your site using this [Quick Start Guide for Google Tag Manager for Web Tracking](https://developers.google.com/tag-manager/quickstart)
 
 #### GTM Configuration
 Once you have your container installed it is time to configure it.
-You will need to edit the constants that give this container its flexibility. 
+You will need to edit the constants that give this container its flexibility.
 Open the folder, #1 - GTM  - Configuration Variables
 Edit the following constants as needed.
 1. Const - Hostname - For Website - WOVG - Config
@@ -33,9 +61,9 @@ Edit the following constants as needed.
 3. Const - Page Not Found - Text - WOVG - Config
     * Please update with plain text, the title or part of the title when your page returns a 404 not found. e.g. not found, 404, etc.
 4. Const - UA - ID - Prod - WOVG - Config
-    * Your Google Analytics Property ID e.g. UA-xxxxxxxxx-x 
+    * Your Google Analytics Property ID e.g. UA-xxxxxxxxx-x
 5. Const - UA - ID - Test - WOVG - Config
-    * Your Testing/QA Google Analytics Property ID e.g. UA-xxxxxxxxx-x 
+    * Your Testing/QA Google Analytics Property ID e.g. UA-xxxxxxxxx-x
     * This is a dedicated Google Analytics Property for test data, it is used so that your UAT or test environments don't send data into your live Google Analytics reports.
 Note for constants 4 & 5:
 https://support.google.com/tagmanager/answer/9207621#ga_id
