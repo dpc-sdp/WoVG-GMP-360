@@ -22,8 +22,7 @@ For the Department of Premier and Cabinet, this would be:
 ## **1 - Download the GTM Container Template**
 
 Access GTM Container Template:
-* [Template-WoVG-v3.0.json](Template-WoVG-v3.0.json)
-* Or search for GTM Container ID: GTM-W4PSLLQ
+* Download [Template-WoVG-v3.0.json](Template-WoVG-v3.0.json)
 
 ## **2 - A - New - Import - GTM - Container Template**
 
