@@ -73,6 +73,8 @@ Import GTM Container JSON:
 
 ![alt_text](assets/image16.jpg "image_tooltip")
 
+![alt_text](assets/image18.jpg "image_tooltip")
+
 # **2 - Configuration**
 
 The Google Tag Manager Container has been set up to streamline configuration. Under the "Folders" section you will find two key directories:
@@ -124,7 +126,7 @@ Update values:
         * b) Text shown to user on page
     * You can access this page by create a fake page path on the domain e.g. /test-404
 
-![alt_text](assets/image8.jpg "image_tooltip")
+![alt_text](assets/image9.jpg "image_tooltip")
 
 ## **2 - Configure #2 - GTM - Configuration Advanced**
 
@@ -160,7 +162,7 @@ Update values:
     * This should target "buttons" that link users to important content. E.g. Click Here, Download, Visits etc.
     * You can use inspect tools on the website to determine the classes and DOM structure used for these types of buttons/links
 
-![alt_text](assets/image9.jpg "image_tooltip")
+![alt_text](assets/image3.jpg "image_tooltip")
 
 * **Click - Link - Footer - WOVG - Config**
     * This is already configured for SDP websites
@@ -169,7 +171,7 @@ Update values:
     * In most cases the above example will work for most websites
     * Otherwise inspect the websites footer and adjust the selector as required
 
-![alt_text](assets/image10.jpg "image_tooltip")
+![alt_text](assets/image13.jpg "image_tooltip")
 
 * **Click - Link - Header - Top - Nav - Home - WOVG - Config**
     * This is already configured for SDP websites
@@ -194,7 +196,7 @@ Update values:
 
 ![alt_text](assets/image13.jpg "image_tooltip")
 
-![alt_text](assets/image14.jpg "image_tooltip")
+![alt_text](assets/image4.jpg "image_tooltip")
 
 * **Const - Page Not Found - CSS - WOVG - Config**
     * This is already configured for SDP
@@ -202,7 +204,7 @@ Update values:
         * E.g. .app-error p.app-error-intro
     * You can access a 404 page by creating a fake page path on the domain e.g. /test-404
 
-![alt_text](assets/image15.jpg "image_tooltip")
+![alt_text](assets/image1.jpg "image_tooltip")
 
 * **Const - Query - Accepted - WOVG - Config**
     * This is already configured for SDP to accept the "q" query string parameter for search.
@@ -223,7 +225,7 @@ Update values:
     * This will be used to calculate the word count for the page excluding navigation.
     * Please use a CSS Selector to target the HTML element on-page that holds the body content. e.g. #rpl-main-content
 
-![alt_text](assets/image16.jpg "image_tooltip")
+![alt_text](assets/image5.jpg "image_tooltip")
 
 # **3 - Custom Dimensions**
 
@@ -540,6 +542,8 @@ Update Triggering:
     * You will need to use CSS selectors to target the cancel button on your feedback form.
     * [https://www.w3schools.com/CSSref/CSS_selectors.asp](https://www.w3schools.com/CSSref/CSS_selectors.asp)
 
+![alt_text](assets/image14.jpg "image_tooltip")
+
 Move Trigger to Folder
 
 * Click Folder Icon
@@ -578,7 +582,7 @@ Update Triggering:
     * You will need to use CSS selectors to target the feedback value selection element
     * [https://www.w3schools.com/CSSref/CSS_selectors.asp](https://www.w3schools.com/CSSref/CSS_selectors.asp)
 
-![alt_text](assets/image18.jpg "image_tooltip")
+![alt_text](assets/image12.jpg "image_tooltip")
 
 Move Trigger to Folder
 
@@ -663,7 +667,7 @@ Update Variable :
     * Do not change the output
     * Change the RegEx patterns to target the html elements that best represent the Output value for each row.
 
-![alt_text](assets/image21.jpg "image_tooltip")
+![alt_text](assets/image11.jpg "image_tooltip")
 
 Move Variable to Folder
 
@@ -688,7 +692,7 @@ Update Triggering:
     * You will need to use CSS selectors to target the search result click
     * [https://www.w3schools.com/CSSref/CSS_selectors.asp](https://www.w3schools.com/CSSref/CSS_selectors.asp)
 
-![alt_text](assets/image22.jpg "image_tooltip")
+![alt_text](assets/image15.jpg "image_tooltip")
 
 Move Trigger to Folder
 
@@ -713,7 +717,7 @@ Update Triggering:
     * You will need to use CSS selectors to target the social share links
     * [https://www.w3schools.com/CSSref/CSS_selectors.asp](https://www.w3schools.com/CSSref/CSS_selectors.asp)
 
-![alt_text](assets/image23.jpg "image_tooltip")
+![alt_text](assets/image6.jpg "image_tooltip")
 
 Move Trigger to Folder
 
