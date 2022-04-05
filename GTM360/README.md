@@ -177,14 +177,14 @@ Update values:
     * This is already configured for SDP websites
     * Create a CSS selector that targets the home header link
 
-![alt_text](assets/image11.jpg "image_tooltip")
+![alt_text](assets/image19.jpg "image_tooltip")
 
 * **Click - Link - Header - Top - Nav - WOVG - Config**
     * This is already configured for SDP websites
     * Create a CSS selector that targets the header links
         * E.g. #nav a
 
-![alt_text](assets/image12.jpg "image_tooltip")
+![alt_text](assets/image22.jpg "image_tooltip")
 
 * **Const - Form - CSS - Selector - WOVG - Config**
     * This is already configured for SDP websites
@@ -194,7 +194,7 @@ Update values:
     * Use , (commas) to set different forms
     * This will only target the first form found per page, so please do not include site search forms.
 
-![alt_text](assets/image13.jpg "image_tooltip")
+![alt_text](assets/image23.jpg "image_tooltip")
 
 ![alt_text](assets/image4.jpg "image_tooltip")
 
@@ -621,7 +621,7 @@ Update Triggering:
     * You will need to use CSS selectors to target the form feedback submit button
     * [https://www.w3schools.com/CSSref/CSS_selectors.asp](https://www.w3schools.com/CSSref/CSS_selectors.asp)
 
-![alt_text](assets/image19.jpg "image_tooltip")
+![alt_text](assets/image20.jpg "image_tooltip")
 
 Move Trigger to Folder
 
@@ -646,7 +646,7 @@ Update Triggering:
     * You will need to use CSS selectors to target the form success/complete message element that is displayed to the user.
     * [https://www.w3schools.com/CSSref/CSS_selectors.asp](https://www.w3schools.com/CSSref/CSS_selectors.asp)
 
-![alt_text](assets/image20.jpg "image_tooltip")
+![alt_text](assets/image21.jpg "image_tooltip")
 
 Move Trigger to Folder
 
