@@ -773,3 +773,6 @@ Update Triggering:
 * Remove "CE - routeChange - Page not found - WOVG"
 * Click "Choose a trigger to make…"
 * Select "Page - DOM Ready - Page Not Found - WOVG"
+
+# **5 - GA4 setup**
+Before you begin this implementation, you will need to ensure that there is a GA4 property set up in Google Analytics. If there is no property configured, or to ensure your existing property is set up to work with this GTM container, please refer to the [WoVG - GA4 Property Configuration - Base Container Version March 2022 document.](https://drive.google.com/file/d/1BQddlDjEGA1CBoUZnXIDNeSd354ExqNW/view?usp=sharing)
