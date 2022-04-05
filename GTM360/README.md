@@ -44,7 +44,7 @@ Import GTM Container JSON:
 
 ![alt_text](assets/image16.jpg "image_tooltip")
 
-![alt_text](assets/image10.png "image_tooltip")
+![alt_text](assets/image18.jpg "image_tooltip")
 
 ## **2 - B - Existing - Import - GTM - Container Template**
 
