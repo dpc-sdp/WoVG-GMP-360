@@ -225,7 +225,7 @@ Update values:
     * This will be used to calculate the word count for the page excluding navigation.
     * Please use a CSS Selector to target the HTML element on-page that holds the body content. e.g. #rpl-main-content
 
-![alt_text](assets/image5.jpg "image_tooltip")
+![alt_text](assets/image5.png "image_tooltip")
 
 # **3 - Custom Dimensions**
 
