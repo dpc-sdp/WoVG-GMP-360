@@ -449,6 +449,9 @@ The standard version of Google Analytics provides 20 custom dimensions and 20 me
 </table>
 
 # **4 - Non SDP Configuration Support**
+IMPORTANT: Non SDP websites are assumed to also be non-SPA (non single page application) for the purposes of page navigation. If you are setting up GTM tracking for a Non SDP website that is an SPA website, please get in touch at analytics.team@dpc.vic.gov.au for additional guidance, as some of the below configurations will need to be different.
+
+The below heading names mirror the names of the tags in the GTM container for easier reference. For each of these tags, please make the updates as listed.
 
 ## **CHTML - Caretaker - message.js - WOVG**
 
