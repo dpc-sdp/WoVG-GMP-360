@@ -71,7 +71,7 @@ Import GTM Container JSON:
 * Import Container > Choose an import option > Merge > Overwrite conflicting tags...
 * Import Container > Preview and confirm your import > Confirm
 
-![alt_text](assets/image16.jpg "image_tooltip")
+![alt_text](assets/image24.jpg "image_tooltip")
 
 ![alt_text](assets/image18.jpg "image_tooltip")
 
