@@ -227,6 +227,7 @@ Update values:
 
 ![alt_text](assets/image5.jpg "image_tooltip")
 
+
 # **3 - Custom Dimensions**
 
 The Google Tag Manager Container is preconfigured to send custom data points to Google Analytics via Custom Dimensions.
