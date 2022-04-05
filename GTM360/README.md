@@ -42,7 +42,7 @@ Import GTM Container JSON:
 * Import Container > Choose an import option > Override
 * Import Container > Preview and confirm your import > Confirm
 
-![alt_text](assets/image4.jpg "image_tooltip")
+![alt_text](GTM360/assets/image16.jpg)
 
 ![alt_text](assets/image10.png "image_tooltip")
 
