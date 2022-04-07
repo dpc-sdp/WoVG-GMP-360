@@ -9,7 +9,7 @@ This process is **NOT** for Single Digital Presence sites.
 * Click **Admin** to open the admin page in Google Analytics
 * Click the blue **+ Create Property** button
 
-IMAGE
+![alt_text](assets/step1.jpg "image_tooltip")
 
 * This automatically creates a new **GA4 Property**
 * Under Property setup, enter the Property name
@@ -18,7 +18,7 @@ E.g: www.vic.gov.au - Production
 * Select the appropriate Industry category, Reporting time zone and Currency details
 * Click Create
 
-IMAGE
+![alt_text](assets/step1-cont.jpg "image_tooltip")
 
 ### 2 - Create a Data Stream
 * Select Data Streams in the admin section
@@ -26,46 +26,40 @@ IMAGE
 * Enter the Website URL.
 * Enter the name of the stream. (Ex:- {{client}} Web Data stream) 
 
-IMAGE
+![alt_text](assets/step2-createstream.jpg "image_tooltip")
 
 _Note: Data stream once created cannot be edited. It can only be deleted_
 
 ### 3 - Activate Enhanced Measurement
 * Switch on the Enhanced Measurement tracking
 
-IMAGE
+![alt_text](assets/Step3.jpg "image_tooltip")
 
 ### 4 - Modify Enhanced Measurement
 * Because we are setting up tracking through GTM, we will be switching off some of the Automatically measured interactions. Click on the settings button
 
-IMAGE
+![alt_text](assets/step4.jpg "image_tooltip")
 
 ### 5 - Switch off all Enhanced Measurement _Except_ Site Search
 * Toggle all of the enhanced measurement tracking options to **OFF** except for Site Search
 
-IMAGE
+![alt_text](assets/step5.jpg "image_tooltip")
 
 ### 6 - Modify Page View Settings
 * Click Show Advanced Settings under Page Views
 * Uncheck the box next to Page Changes based on browser history events
 * Click Save
 
-IMAGE
-
-IMAGE
+![alt_text](assets/step6.jpg "image_tooltip")
 
 ### 7 - Configure Site Search
 * Click on **Show Advanced Settings** under site search
 * Enter in your site search query parameter if this is different from the auto configured parameters
 * Click Save
 
-IMAGE
-
-IMAGE
+![alt_text](assets/step7.jpg "image_tooltip")
 
 _Note: Your site search query parameter is found in the URL after you complete a site search. In the example below, this is the ‘q”._
-
-IMAGE
 
 If this is missing or you are unsure of this setting, please contact **analytics.team@dpc.vic.gov.au**
 
@@ -73,7 +67,7 @@ If this is missing or you are unsure of this setting, please contact **analytics
 * This section is where you will find your Measurement ID
 * This is what you need for completing the implementation of the WoVG Base Container
 
-IMAGE
+![alt_text](assets/step8.jpg "image_tooltip")
 
 ### 9 - Update Data Retention Settings
 * Go back to the property settings section
@@ -81,7 +75,7 @@ IMAGE
 * Change Event Data Retention to 14 Months
 * Click Save
 
-IMAGE
+![alt_text](assets/step9.jpg "image_tooltip")
 
 ### Additional Information
 If you need to configure a testing GA4 property, follow the same settings with the property name {{website url}} - Test. Use this Measurement ID in GTM to send testing traffic to a testing property
@@ -92,26 +86,54 @@ There are no “Views” in GA4. If you require views or a way to see data split
 
 ## Custom Dimensions / Metrics Setup
 ### 1 - Go to Custom Definitions page
-* Go to Custom Definitions page
+* Click Configure in the main left hand side GA4 navigation
 * Then enter the Custom Definitions page
 
-IMAGE
+![alt_text](assets/customdefinitions-step1.jpg "image_tooltip")
 
 ### 2 - Create New Custom Dimension
 * Click Create Custom Dimensions 
 
-IMAGE
+![alt_text](assets/customdefinition-step2a.jpg "image_tooltip")
 
 * Use the tables below to configure the custom dimensions and custom metrics
 * Click Save
 
-IMAGE
+![alt_text](assets/customdefinition-step2b.jpg "image_tooltip")
+
 
 ### Custom Dimension / Metric Mapping
-TABLE
+| Name                     | Description                             | Scope | User Property/Parameter  |
+|--------------------------|-----------------------------------------|:-----:|--------------------------|
+| AUTO Event Timestamp     | This may not show up in GA4, only in BQ | Event | event_timestamp          |
+| AUTO GA Session ID       |                                         | Event | ga_session_id            |
+| AUTO User Pseudo ID      | This may not show up in GA4, only in BQ |  User | user_pseudo_id           |
+| Content avg read time    |                                         | Event | content_avg_read_time    |
+| Content publication name |                                         | Event | content_publication_name |
+| Content site section     |                                         | Event | content_site_section     |
+| Content type             |                                         | Event | content_type             |
+| Content word count range |                                         | Event | content_wordcount_range  |
+| Department               |                                         | Event | department               |
+| Error Message            |                                         | Event | error_message            |
+| Event Data               |                                         | Event | event_data               |
+| File Extension           |                                         | Event | file_extension           |
+| File Name                |                                         | Event | file_name                |
+| GTM container ID         |                                         | Event | gtm_container_id         |
+| GTM container version    |                                         | Event | gtm_container_version    |
+| Link Classes             |                                         | Event | link_classes             |
+| Link Text                |                                         | Event | link_text                |
+| Link URL                 |                                         | Event | link_url                 |
+| Page Location            |                                         | Event | page_location            |
+| URL Query                |                                         | Event | url_query                |
+| Video Title              |                                         | Event | video_title              |
+| Video URL                |                                         | Event | video_url                |
 
-TABLE
-
+| Custom Metric Name | Description           | Scope | User Property/Parameter | Unit of Measurement |
+|--------------------|-----------------------|-------|-------------------------|---------------------|
+| Content word count | Metric for word count | Event | content_word_count      | Standard            |
+| Video Current Time | In seconds            | Event | video_current_time      | Standard            |
+| Video Duration     | In seconds            | Event | video_duration          | Standard            |
+| Video Percent      | % between 1 and 100   | Event | video_percent           | Standard            |
 
 ## Connecting Search Console
 Below are the steps to follow for linking Google Search Console:
@@ -120,22 +142,22 @@ _Note: You need to be a verified owner of your websites Search Console to connec
 * Click on Search Console Links
 * Select Link then select Choose Accounts
 
-IMAGE
+![alt_text](assets/connectingsearchconsole1.jpg "image_tooltip")
+
 
 * Select the website you want to connect. Note: You need to be a verified owner to connect the Search Console
 * Select Confirm and Next
 
-IMAGE
+![alt_text](assets/connectingsearchconsole2.jpg "image_tooltip")
 
 * Select web stream and select the new web stream you have just created
 
-IMAGE
+![alt_text](assets/connectingsearchconsole3.jpg "image_tooltip")
 
 * Select Next, then Submit
 
-IMAGE
+![alt_text](assets/connectingsearchconsole4.jpg "image_tooltip")
 
-IMAGE
 
 ## Connecting Google Ads and BigQuery
 ### Connecting Google Ads
@@ -146,7 +168,7 @@ Below are the steps to follow for linking:
 * Ensure that auto-tagging has been selected
 * Review and submit to link the GA4 property to Google Ads
 
-IMAGE
+![alt_text](assets/googleads1.jpg "image_tooltip")
 
 ### Connecting BigQuery
 * For all BigQuery connections, please contact analytics.team@dpc.vic.gov.au  to set this up. They have a Google Cloud Platform setup for the Victorian Government
