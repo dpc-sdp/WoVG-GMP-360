@@ -1,7 +1,7 @@
 # **1 - Initial Setup/Import**
 
 ## **Set up your GA4 properties**
-Ensure that there is a GA4 property set up in Google Analytics. If there is no property configured, or to ensure your existing property is set up to work with this GTM container, please refer to the WoVG - GA4 Property Configuration - Base Container Version March 2022 document.
+Ensure that there is a GA4 property set up in Google Analytics. If there is no property configured, or to ensure your existing property is set up to work with this GTM container, please refer to the [GA4 Configuration Instructions.](https://github.com/dpc-sdp/WoVG-GMP-360/blob/4aa45272ddb8b3f136685594bced2d69eb3f8181/GA360/README.md)
 
 ## **1 - Download the GTM Container Template**
 
