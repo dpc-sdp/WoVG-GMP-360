@@ -1,4 +1,8 @@
 # **1 - Initial Setup/Import**
+
+## **Set up your GA4 properties**
+Ensure that there is a GA4 property set up in Google Analytics. If there is no property configured, or to ensure your existing property is set up to work with this GTM container, please refer to the WoVG - GA4 Property Configuration - Base Container Version March 2022 document.
+
 ## **1 - Download the GTM Container Template**
 
 Access GTM Container Template:
