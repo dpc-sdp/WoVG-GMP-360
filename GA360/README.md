@@ -3,7 +3,159 @@ Use these instructions to comply with the standard for the Victorian government 
 
 This process is **NOT** for Single Digital Presence sites.
 
-## Configure Google Analytics
+# Google Analytics 4
+
+### 1 - Creating a GA4 Property
+* Click **Admin** to open the admin page in Google Analytics
+* Click the blue **+ Create Property** button
+
+IMAGE
+
+* This automatically creates a new **GA4 Property**
+* Under Property setup, enter the Property name
+* * Please follow the WoVG naming convention: {{website url}} - Production
+E.g: www.vic.gov.au - Production
+* Select the appropriate Industry category, Reporting time zone and Currency details
+* Click Create
+
+IMAGE
+
+### 2 - Create a Data Stream
+* Select Data Streams in the admin section
+* From the options select Web data Stream for websites.
+* Enter the Website URL.
+* Enter the name of the stream. (Ex:- {{client}} Web Data stream) 
+
+IMAGE
+
+_Note: Data stream once created cannot be edited. It can only be deleted_
+
+### 3 - Activate Enhanced Measurement
+* Switch on the Enhanced Measurement tracking
+
+IMAGE
+
+### 4 - Modify Enhanced Measurement
+* Because we are setting up tracking through GTM, we will be switching off some of the Automatically measured interactions. Click on the settings button
+
+IMAGE
+
+### 5 - Switch off all Enhanced Measurement _Except_ Site Search
+* Toggle all of the enhanced measurement tracking options to **OFF** except for Site Search
+
+IMAGE
+
+### 6 - Modify Page View Settings
+* Click Show Advanced Settings under Page Views
+* Uncheck the box next to Page Changes based on browser history events
+* Click Save
+
+IMAGE
+
+IMAGE
+
+### 7 - Configure Site Search
+* Click on **Show Advanced Settings** under site search
+* Enter in your site search query parameter if this is different from the auto configured parameters
+* Click Save
+
+IMAGE
+
+IMAGE
+
+_Note: Your site search query parameter is found in the URL after you complete a site search. In the example below, this is the ‘q”._
+
+IMAGE
+
+If this is missing or you are unsure of this setting, please contact **analytics.team@dpc.vic.gov.au**
+
+### 8 - Take note of your measurement ID
+* This section is where you will find your Measurement ID
+* This is what you need for completing the implementation of the WoVG Base Container
+
+IMAGE
+
+### 9 - Update Data Retention Settings
+* Go back to the property settings section
+* Click on Data Settings > Data Retention
+* Change Event Data Retention to 14 Months
+* Click Save
+
+IMAGE
+
+### Additional Information
+If you need to configure a testing GA4 property, follow the same settings with the property name {{website url}} - Test. Use this Measurement ID in GTM to send testing traffic to a testing property
+
+
+There are no “Views” in GA4. If you require views or a way to see data split out by hostname, please contact analytics.team@dpc.vic.gov.au for options
+
+
+## Custom Dimensions / Metrics Setup
+### 1 - Go to Custom Definitions page
+* Go to Custom Definitions page
+* Then enter the Custom Definitions page
+
+IMAGE
+
+### 2 - Create New Custom Dimension
+* Click Create Custom Dimensions 
+
+IMAGE
+
+* Use the tables below to configure the custom dimensions and custom metrics
+* Click Save
+
+IMAGE
+
+### Custom Dimension / Metric Mapping
+TABLE
+
+TABLE
+
+
+## Connecting Search Console
+Below are the steps to follow for linking Google Search Console:
+_Note: You need to be a verified owner of your websites Search Console to connect this. If you are not the verified owner and require assistance, please contact analytics.team@dpc.vic.gov.au_
+
+* Click on Search Console Links
+* Select Link then select Choose Accounts
+
+IMAGE
+
+* Select the website you want to connect. Note: You need to be a verified owner to connect the Search Console
+* Select Confirm and Next
+
+IMAGE
+
+* Select web stream and select the new web stream you have just created
+
+IMAGE
+
+* Select Next, then Submit
+
+IMAGE
+
+IMAGE
+
+## Connecting Google Ads and BigQuery
+### Connecting Google Ads
+Below are the steps to follow for linking:
+* Click on the Google Ads Linking option from the GA4 property options
+* Select the desired account
+* Enable Personalised Advertising
+* Ensure that auto-tagging has been selected
+* Review and submit to link the GA4 property to Google Ads
+
+IMAGE
+
+### Connecting BigQuery
+* For all BigQuery connections, please contact analytics.team@dpc.vic.gov.au  to set this up. They have a Google Cloud Platform setup for the Victorian Government
+
+
+
+# Universal Analytics
+
+### Configure Google Analytics
 Before you start, have your Google Analytics Universal Analytics (UA-XXXXXXXX-X) number from your site’s account ready.
 
 If you need to set up a new UA, follow [these instructions from the Google website](https://support.google.com/analytics/answer/1042508?hl=en) or log a [support ticket with the Analytics Team](https://digital-engagement.atlassian.net/servicedesk/customer/portal/11/group/16/create/69).
