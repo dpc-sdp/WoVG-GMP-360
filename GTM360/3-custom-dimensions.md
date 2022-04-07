@@ -220,3 +220,6 @@ The standard version of Google Analytics provides 20 custom dimensions and 20 me
    </td>
   </tr>
 </table>
+
+**Note:**  If you are setting these up for a  GA4 property, please refer to this document on configuring Custom Dimensions in GA4
+
