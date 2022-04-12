@@ -8,7 +8,7 @@ Ensure that there is a GA4 property set up in Google Analytics. If there is no p
 Access GTM Container Template:
 * Download [Template-WoVG-v3.0.json](Template-WoVG-v3.0.json)
 
-## **2 - A - New - Import - GTM - Container Template**
+## **2A - Import the JSON into a new container**
 
 Access Department GTM Container:
 
@@ -29,7 +29,7 @@ Import GTM Container JSON:
 
 ![alt_text](assets/image18.jpg "image_tooltip")
 
-## **2 - B - Existing - Import - GTM - Container Template**
+## **2B - Import the JSON into an existing container**
 
 **Please note importing and merging/overriding will overwrite existing configurations when they have the same name.**
 
