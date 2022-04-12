@@ -15,6 +15,7 @@ Access Department GTM Container:
 * [https://tagmanager.google.com](https://tagmanager.google.com)
 * Search for your website's GTM Container
 * If a GTM Container does not exist you will need to create one under the WoVG 360 GTM Account Contact the [DPC Analytics Team](https://digital-engagement.atlassian.net/servicedesk/customer/portal/11/group/16/create/69) or your Webmaster.
+* If the GTM Container already exists, and already has configurations in it, skip this section and see "2B - Import the JSON into an existing container"
 
 Import GTM Container JSON:
 
@@ -50,8 +51,8 @@ Import GTM Container JSON:
 * Admin > Container > Import Container
 * Import Container > Select file to import > select downloaded JSON e.g. Template-WoVG-v3.0.json
 * Import Container > Choose workspace > New
-    * Provide a Name e.g. Import base Container
-* Import Container > Choose an import option > Merge > Overwrite conflicting tags...
+    * Provide a Name e.g. Import Template Container
+* Import Container > Choose an import option > Merge > Overwrite conflicting tags
 * Import Container > Preview and confirm your import > Confirm
 
 ![alt_text](assets/image24.jpg "image_tooltip")
