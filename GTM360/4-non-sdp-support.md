@@ -245,7 +245,7 @@ Move Trigger to Folder
 Navigate to Tags:
 
 * Tags
-* Search > "GA - Event - Navigation - Search - Result - Click - SDP"
+* Search > "GA - Event - Social Media Share - SDP"
 * Click Tag
 
 Update Triggering:
