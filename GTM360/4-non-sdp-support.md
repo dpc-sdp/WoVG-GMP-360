@@ -280,6 +280,7 @@ Move Variable to Folder
 * Click Folder Icon
 * Select "Website - Non SDP - Support"
 
+## **Google Analytics 4**
 ### **GA4 - Configuration**
 
 Move the Configuration tag into the appropriate folder:
