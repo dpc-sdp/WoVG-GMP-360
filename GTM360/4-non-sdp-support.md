@@ -3,7 +3,7 @@
 
 The below heading names mirror the names of the tags in the GTM container for easier reference. For each of these tags, please make the updates as listed.
 
-## **CHTML - Caretaker - message.js - WOVG**
+### **CHTML - Caretaker - message.js - WOVG**
 
 Navigate to Tags:
 
@@ -24,7 +24,8 @@ Update Triggering:
 * Click "Choose a trigger to make…"
 * Select "All Pages"
 
-## **GA - Event - Error - Content - 404 - SDP**
+## **Universal Analytics (if applicable)**
+### **GA - Event - Error - Content - 404 - SDP**
 
 Navigate to Tags:
 
@@ -45,7 +46,7 @@ Update Triggering:
 * Click "Choose a trigger to make…"
 * Select "Page - DOM Ready - Page Not Found - WOVG"
 
-## **GA - Pageview - WOVG**
+### **GA - Pageview - WOVG**
 Navigate to Tags:
 * Tags
 * Search > “GA - Pageview - WOVG”
@@ -63,7 +64,7 @@ Update Paused:
 * Click “Stacked Dots” (Next to Save button in the top right)
 * From the menu click “Pause”
 
-## **GA - Event - Content - Feedback - Cancel - SDP**
+### **GA - Event - Content - Feedback - Cancel - SDP**
 
 **_Update requires developer knowledge (HTML/CSS/JavaScript)_**
 
@@ -103,7 +104,7 @@ Move Variable to Folder
 * Click Folder Icon
 * Select "Website - Non SDP - Support"
 
-## **GA - Event - Content - Feedback - SDP**
+### **GA - Event - Content - Feedback - SDP**
 
 **_Update requires developer knowledge (HTML/CSS/JavaScript)_**
 
@@ -142,7 +143,7 @@ Move Variable to Folder
 * Click Folder Icon
 * Select "Website - Non SDP - Support"
 
-## **GA - Event - Content - Feedback - Submit - SDP**
+### **GA - Event - Content - Feedback - Submit - SDP**
 
 **_Update requires developer knowledge (HTML/CSS)_**
 
@@ -167,7 +168,7 @@ Move Trigger to Folder
 * Click Folder Icon
 * Select "Website - Non SDP - Support"
 
-## **GA - Event - Form - Complete - WOVG**
+### **GA - Event - Form - Complete - WOVG**
 
 **_Update requires developer knowledge (HTML/CSS)_**
 
@@ -192,7 +193,7 @@ Move Trigger to Folder
 * Click Folder Icon
 * Select "Website - Non SDP - Support"
 
-## **GA - Event - Navigation - SDP**
+### **GA - Event - Navigation - SDP**
 
 **_Update requires developer knowledge (HTML/CSS)_**
 
@@ -213,7 +214,7 @@ Move Variable to Folder
 * Click Folder Icon
 * Select "Website - Non SDP - Support"
 
-## **GA - Event - Navigation - Search - Result - Click - SDP**
+### **GA - Event - Navigation - Search - Result - Click - SDP**
 
 **_Update requires developer knowledge (HTML/CSS)_**
 
@@ -238,7 +239,7 @@ Move Trigger to Folder
 * Click Folder Icon
 * Select "Website - Non SDP - Support"
 
-## **GA - Event - Social Media Share - SDP**
+### **GA - Event - Social Media Share - SDP**
 
 **_Update requires developer knowledge (HTML/CSS)_**
 
@@ -279,7 +280,7 @@ Move Variable to Folder
 * Click Folder Icon
 * Select "Website - Non SDP - Support"
 
-## **GA4 - Configuration**
+### **GA4 - Configuration**
 
 Move the Configuration tag into the appropriate folder:
 * Navigate to Tags section
@@ -296,7 +297,7 @@ Update Triggering:
 * Select “All Pages”
 
 
-## **GA4 - Event - Content - Error - Page not found - SDP**
+### **GA4 - Event - Content - Error - Page not found - SDP**
 
 Navigate to Tags:
 
