@@ -15,7 +15,7 @@ Navigate to folders:
 * Left Hand menu > Folders
 * Open > **#1 - GTM  - Configuration Variables**
 
-Update values:
+Update values for the following configs (UA ones, only where applicable):
 
 * **Const - UA - ID - Prod - WOVG - Config**
     * The Production Google Analytics Property ID e.g. UA-xxxxxxxxx-x
