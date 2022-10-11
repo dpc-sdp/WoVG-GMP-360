@@ -3,27 +3,6 @@
 
 The below heading names mirror the names of the tags in the GTM container for easier reference. For each of these tags, please make the updates as listed.
 
-### **CHTML - Caretaker - message.js - WOVG**
-
-Navigate to Tags:
-
-* Tags
-* Search > "CHTML - Caretaker - message.js - WOVG"
-* Click Tag
-
-Move Tag to Folder
-
-* Click Folder Icon
-* Select "Website - Non SDP - Support"
-
-Update Triggering:
-
-* Navigate to Triggering
-* Click Edit Icon
-* Remove "CE - routeChange - WOVG"
-* Click "Choose a trigger to make…"
-* Select "All Pages"
-
 ## **Universal Analytics (if applicable)**
 ### **GA - Event - Error - Content - 404 - SDP**
 
