@@ -149,3 +149,50 @@ Update values:
     * Please use a CSS Selector to target the HTML element on-page that holds the body content. e.g. #rpl-main-content
 
 ![alt_text](assets/image5.png "image_tooltip")
+
+* **CJS - Content - Breadcrumb - Return Function - SDP - Config**
+    * _Update requires developer knowledge (HTML/CSS/JavaScript)_
+    * This is already configured for SDP
+    * This will be used to set custom definitions for the current content breadcrumbs upto 5 levels
+    * Edit the CSS selector “document.querySelectorAll()” to target your breadcrumbs on site/page.
+      * You will need to use CSS selectors
+      * https://www.w3schools.com/cssref/css_selectors.asp
+    * You may also need to adjust the JavaScript depending on your breadcrumb structure and if the first item needs to be removed e.g. “home”
+
+![alt_text](assets/image26.jpg "image_tooltip")
+
+* **CJS - File Download Link - Size - SDP - Config**
+    * _Update requires developer knowledge (HTML/CSS/JavaScript)_
+    * This is already configured for SDP
+    * This will be used to get the file size of the file download document if displayed to the user.
+    * Edit the CSS selector “target.querySelector()” to target the html element that holds the file size information.
+      * You will need to use CSS selectors
+      * https://www.w3schools.com/cssref/css_selectors.asp  
+    * You may also need to adjust the JavaScript depending on where and how the file size is displayed to the user.
+
+![alt_text](assets/image27.jpg "image_tooltip")
+
+* **CJS - Content Section Count - SDP - Config**
+    * _Update requires developer knowledge (HTML/CSS/JavaScript)_
+    * This is already configured for SDP
+    * This will be used to get a count of the content sections on the current page.
+    * Edit the CSS selector “document.querySelectorAll()” to target the html elements that define each content section
+      * You will need to use CSS selectors
+      * https://www.w3schools.com/cssref/css_selectors.asp  
+
+* **CJS - Accordion On Page - SDP - Config**
+    * _Update requires developer knowledge (HTML/CSS/JavaScript)_
+    * This is already configured for SDP
+    * This will be used to get a count of the content sections on the current page.
+    * Edit the CSS selector “document.querySelector()” to target the html elements that identify an Accordion on page r.g. .rpl-accordion
+      * You will need to use CSS selectors
+      * https://www.w3schools.com/cssref/css_selectors.asp
+
+* **CJS - Images On Page - Count - Config**
+    * _Update requires developer knowledge (HTML/CSS/JavaScript)_
+    * This is already configured for SDP
+    * This will be used to get a count of images on page
+    * Edit (if required) the CSS selector “document.querySelectorAll()” to target the images on page. By default it uses “img” and this should be appropriate for most websites
+      *    You will need to use CSS selectors
+      *    https://www.w3schools.com/cssref/css_selectors.asp
+   
