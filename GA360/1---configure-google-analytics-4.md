@@ -48,10 +48,10 @@ _Note: Data stream once created cannot be edited. It can only be deleted_
 
 ![alt_text](assets/step4.jpg "image_tooltip")
 
-## 5 - Switch off all Enhanced Measurement _Except_ Site Search
-* Toggle all of the enhanced measurement tracking options to **OFF** except for Site Search
+## 5 - Switch off all Enhanced Measurement
+* Toggle all of the enhanced measurement tracking options to **OFF**
 
-![alt_text](assets/step5.jpg "image_tooltip")
+![alt_text](assets/enhancedmeasurement.jpg "image_tooltip")
 
 ## 6 - Modify Page View Settings
 * Click Show Advanced Settings under Page Views
@@ -60,24 +60,14 @@ _Note: Data stream once created cannot be edited. It can only be deleted_
 
 ![alt_text](assets/step6.jpg "image_tooltip")
 
-## 7 - Configure Site Search
-* Click on **Show Advanced Settings** under site search
-* Enter in your site search query parameter if this is different from the auto configured parameters
-* Click Save
 
-![alt_text](assets/step7.jpg "image_tooltip")
-
-_Note: Your site search query parameter is found in the URL after you complete a site search. In the example below, this is the ‘q”._
-
-If this is missing or you are unsure of this setting, please contact **analytics.team@dpc.vic.gov.au**
-
-## 8 - Take note of your measurement ID
+## 7 - Take note of your measurement ID
 * This section is where you will find your Measurement ID
 * This is what you need for completing the implementation of the WoVG Base Container
 
 ![alt_text](assets/step8.jpg "image_tooltip")
 
-## 9 - Update Data Retention Settings
+## 8 - Update Data Retention Settings
 * Go back to the property settings section
 * Click on Data Settings > Data Retention
 * Change Event Data Retention to 14 Months
