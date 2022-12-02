@@ -359,7 +359,7 @@ _Update requires developer knowledge (HTML/CSS)_
 
 Move to appropriate folder:
 * Navigate to Triggers section
-* Search for "TG - View Search Results"
+* Search for "CE - custom.routeChange.update - with search query"
 * Edit the trigger (opens own section)
 * Click Folder icon
 * Select “Website - Non SDP - Support”
