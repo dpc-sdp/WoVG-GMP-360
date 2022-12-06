@@ -71,7 +71,7 @@ Update Trigger Configuration:
    * https://www.w3schools.com/cssref/css_selectors.asp
 * The entire trigger may need to be adjusted to work with the dropdown/accordion present on the website
 
-![alt_text](GTM360/assets/image28.jpg "image_tooltip")
+![alt_text](assets/image28.jpg "image_tooltip")
 
 ### **GA4 - Event - Dropdown Close - SDP**
 _Update requires developer knowledge (HTML/CSS)_
@@ -92,7 +92,7 @@ Update Trigger Configuration:
    * https://www.w3schools.com/cssref/css_selectors.asp
 * The entire trigger may need to be adjusted to work with the dropdown/accordion  present on the website 
 
-![alt_text](GTM360/assets/image28.jpg "image_tooltip")
+![alt_text](assets/image28.jpg "image_tooltip")
 
 ### **GA4 - Event - View Search Results - SDP**
 _Update requires developer knowledge (HTML/CSS)_
@@ -113,7 +113,7 @@ Update Trigger Configuration:
 * Select “All Pages”
 * Update the “Some Conditions” to match the Page URL that indicates the user is on a search results page e.g search.*q=
 
-![alt_text](GTM360/assets/image29.jpg "image_tooltip")
+![alt_text](assets/image29.jpg "image_tooltip")
 
 ### **GA4 - Event - Timeline - Click - SDP**
 _Update requires developer knowledge (HTML/CSS)_
@@ -133,7 +133,7 @@ Update Trigger Configuration:
    * https://www.w3schools.com/cssref/css_selectors.asp
 * The entire trigger may need to be adjusted to work with the timeline on the target website
 
- ![alt_text](GTM360/assets/image30.jpg "image_tooltip")
+ ![alt_text](assets/image30.jpg "image_tooltip")
  
  ### **GA4 - Event - Gallery Enlarge - SDP**
 _Update requires developer knowledge (HTML/CSS)_
@@ -153,7 +153,7 @@ Update Trigger Configuration:
    * https://www.w3schools.com/cssref/css_selectors.asp
 * The entire trigger may need to be adjusted to work with the Image gallery for the target website
 
-![alt_text](GTM360/assets/image31.jpg "image_tooltip")
+![alt_text](assets/image31.jpg "image_tooltip")
 
  ### **GA4 - Event - Related - Link - Click - SDP**
 _Update requires developer knowledge (HTML/CSS)_
@@ -174,7 +174,7 @@ Update Trigger Configuration:
    * https://www.w3schools.com/cssref/css_selectors.asp
 The entire trigger may need to be adjusted to work with the related links on the target website
 
-![alt_text](GTM360/assets/image32.jpg "image_tooltip")
+![alt_text](assets/image32.jpg "image_tooltip")
 
  ### **GA4 - Event - Card Carousel - Left - SDP**
 _Update requires developer knowledge (HTML/CSS)_
@@ -194,7 +194,7 @@ Update Trigger Configuration:
    * https://www.w3schools.com/cssref/css_selectors.asp
 * The entire trigger may need to be adjusted to work with the related links on the target website
 
-![alt_text](GTM360/assets/image33.jpg "image_tooltip")
+![alt_text](assets/image33.jpg "image_tooltip")
 
  ### **GA4 - Event - Card Carousel - Right - SDP**
 _Update requires developer knowledge (HTML/CSS)_
@@ -214,7 +214,7 @@ Update Trigger Configuration:
    * https://www.w3schools.com/cssref/css_selectors.asp
 * The entire trigger may need to be adjusted to work with the related links on the target website
 
-![alt_text](GTM360/assets/image34.jpg "image_tooltip")
+![alt_text](assets/image34.jpg "image_tooltip")
 
  ### **CHTML - Utility - dataLayer - Engagement**
  This advanced Tag will add functionality to flag user engagement on each page.
