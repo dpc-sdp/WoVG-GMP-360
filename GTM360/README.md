@@ -7,4 +7,4 @@ Use these instructions to comply with the mandatory standard for the Victorian g
 - [2 - Configuration](2-configuration.md)
 - [3 - Custom Dimensions](3-custom-dimensions.md)
 - [4 - Non SDP Configuration Support](4-non-sdp-support.md)
-
+- [5 - Google Analytics 4 Configuration](5-google-analytics-4.md)
