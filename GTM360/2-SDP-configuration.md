@@ -1,4 +1,4 @@
-# **2 - Configuration**
+# **2 - SDP Configuration**
 
 The Google Tag Manager Container has been set up to streamline configuration. Under the "Folders" section you will find two key directories:
 
