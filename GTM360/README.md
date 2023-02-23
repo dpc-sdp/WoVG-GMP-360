@@ -12,3 +12,5 @@ SDP Configuration Instructions:
 Non-SDP Configuration Instructions:
 - [Before you start](0-before-you-start.md)
 - [1 - Initial Setup/Import](1-initial-setup-import.md)
+- [2b - non-SDP Configuration](2b - non-SDP Configuration.md)
+
