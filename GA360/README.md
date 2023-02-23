@@ -31,11 +31,4 @@ This process is **NOT** for Single Digital Presence sites.
 	- [1.5.2 Removing unwanted referral traffic](1.5---cross-domain-and-referral-traffic.md#1.5.2-removing-unwanted-referral-traffic)
 		- [1.5.2.1 Step 1 - Listing unwanted referrals](1.5---cross-domain-and-referral-traffic.md#1.5.2.1-step-1---listing-unwanted-referrals)
 		- [1.5.2.2 Step 2 - Listing unwanted referrals](1.5---cross-domain-and-referral-traffic.md#1.5.2.2-step-2---listing-unwanted-referrals)
-- [2 - Universal Analytics - GA3](2---universal-analytics---ga3.md)
-	- [2.1 - Configure Google Analytics](2---universal-analytics---ga3.md#2.1---configure-google-analytics)
-	- [2.2 - Naming Convention](2---universal-analytics---ga3.md#2.2---naming-convention)
-		- [2.2.1 - Account Name](2---universal-analytics---ga3.md#2.2.1---account-name)
-		- [2.2.2 - Property](2---universal-analytics---ga3.md#2.2.2---property)
-		- [2.2.3 - Views](2---universal-analytics---ga3.md#2.2.3---views)
-		- [2.2.4 - Recommended filters](2---universal-analytics---ga3.md#2.2.4---recommended-filters)
-1---configure-google-analytics-4.md.md#1---creating-a-ga4-property
+
