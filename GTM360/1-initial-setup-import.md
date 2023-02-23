@@ -6,7 +6,8 @@ Ensure that there is a GA4 property set up in Google Analytics. If there is no p
 ## **1 - Download the GTM Container Template**
 
 Access GTM Container Template:
-* GA4 Container Template: Download [Template-WoVG-v3.1-noUA.json](https://github.com/dpc-sdp/WoVG-GMP-360/blob/master/GTM360/Template-WoVG-v3.1-noUA.json)
+* SDP GA4 Container Template: Download [Template-WoVG-v3.1-noUA.json](https://github.com/dpc-sdp/WoVG-GMP-360/blob/master/GTM360/Template-WoVG-v3.1-noUA.json)
+* non-SDP Container Template: Download [Template-WoVG0nonSDP-GA4only-v1.0.json](https://github.com/dpc-sdp/WoVG-GMP-360/blob/8c876119a9997f1f988f36f8ea7e0954a50d5368/GTM360/Template-WoVG-nonSDP-GA4only-v1.0.json)
 
 ## **2A - Import the JSON into a new container**
 
